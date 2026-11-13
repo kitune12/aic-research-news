@@ -13,7 +13,9 @@
       "一方、13日のアジア市場は落ち着いた滑り出しとなった。Bloombergは、MSCIアジア太平洋指数が韓国株主導で0.3%上昇し、米株価指数先物もナスダック100が0.6%高と持ち直していると伝えている。暫定CEOには財務責任者のコレット・クレス氏が就くと海外メディアが報じている。",
       "AIカンパニーの事業に直接の影響はないが、GPU供給や価格、AI関連株の値動きを通じて、クラウドやAPIの料金に波及する可能性がある。リサーチ事業部では来週以降も続報を追う。"
     ],
-    "image": {}
+    "image": {
+      "src": "https://img.sbs.co.kr/newimg/news/20261113/202240563_1280.jpg"
+    }
   },
   "stories": [
     {
@@ -42,7 +44,9 @@
       "url": "https://claude.com/blog/sheets-whiteboards-data",
       "source": "Claude公式ブログ",
       "body": "AnthropicはClaude SheetsとClaude Whiteboardsをベータ版で公開し、ダッシュボード機能をClaude Dataとして正式版にした。有料プランで使え、チャットの中で表やボードを作って共有できる。",
-      "image": {}
+      "image": {
+        "src": "https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og"
+      }
     },
     {
       "kicker": "障害",
