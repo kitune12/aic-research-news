@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-14",
+  "top": {
+    "kicker": "情報流出",
+    "headline": "Fireworks AI への攻撃で Notion 顧客の AI チャット記録が流出",
+    "subhead": "推論基盤の外部委託先が2か月で2度目の侵害、Notion は約1%の顧客に影響",
+    "lead": "AI 推論基盤を手がける Fireworks AI がサイバー攻撃を受け、Notion AI を利用する顧客の一部のチャット記録に攻撃者がアクセスした。TechCrunch が11月12日に報じた。",
+    "body": [
+      "報道によると、流出したのは Fireworks の課金情報と一部のデータセットだ。Notion では、「Insights」機能を使う Notion AI 顧客のチャット記録が対象になった。影響を受けたのは自社顧客の約1%という。",
+      "Notion は11月3日に Fireworks との接続を遮断し、保存していたデータも削除した。Fireworks の侵害は10月に続くもので、2か月で2度目にあたる。",
+      "AI 機能を外部の推論事業者に任せる構成は、いまや多くのサービスで一般的だ。今回の件は、そうした委託先がサプライチェーン上のリスクになりうることを示している。利用者側にも、チャット記録がどこで処理・保管されるかを確認する視点が求められそうだ。"
+    ],
+    "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+    "source": "TechCrunch",
+    "image": {
+      "src": "https://techcrunch.com/wp-content/uploads/2021/02/notion-glitch-hero.jpg?resize=1200,827"
+    }
+  },
+  "stories": [
+    {
+      "kicker": "鳥インフル",
+      "headline": "千葉県旭市で高病原性鳥インフルエンザの疑似患畜、今季国内2例目",
+      "body": "農林水産省によると、旭市の採卵鶏農場(約4万羽)で11月13日8時に遺伝子検査で確認された。殺処分に加え、半径3km以内は移動制限、3〜10kmは搬出制限となる。全都道府県に注意喚起も出された。",
+      "url": "https://www.maff.go.jp/j/press/syouan/douei/261113.html",
+      "source": "農林水産省",
+      "image": {}
+    },
+    {
+      "kicker": "半導体",
+      "headline": "AMD が Instinct MI430X を公開、HBM4 432GB を搭載",
+      "body": "AI と HPC の両方に使う GPU で、メモリ帯域は最大23.3TB/s、FP64理論ピークは最大288TFLOPS、FP4は9.2PF。性能値は解析モデルと初期シリコンの目標に基づく予測で、実測ではないと脚注に明記されている。メモリ容量を差別化の軸に据えた。",
+      "url": "https://www.amd.com/en/blogs/2026/exascale-was-the-beginning-amd-instinct--mi430x-gpus.html",
+      "source": "AMD",
+      "image": {
+        "src": "https://www.amd.com/content/dam/amd/en/images/blogs/designs/generic-thumbnails/9851-hpc-scientific-computing-08.jpg"
+      }
+    },
+    {
+      "kicker": "開発ツール",
+      "headline": "Copilot アプリが GitHub Enterprise Server 対応を一般提供",
+      "body": "従来はオプトイン方式のプレビューだった。利用にはアプリ1.2.0以降が必要で、先に GitHub.com か GHE.com でサインインする必要がある。GHES ではクラウドセッションは使えない。",
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app/",
+      "source": "GitHub",
+      "image": {
+        "src": "https://github.blog/wp-content/uploads/2026/11/ghes.jpeg"
+      }
+    },
+    {
+      "kicker": "開発ツール",
+      "headline": "GitHub Actions のホステッドランナー、ARM32 を12月8日までに終了",
+      "body": "Linux と Windows の ARM32 でのジョブ実行が対象。Node 20 のサポート終了に続く措置で、Node 24 が ARM32 に対応していないことが理由とされる。該当するワークフローは移行の検討が必要になる。",
+      "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+      "source": "GitHub",
+      "image": {
+        "src": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-deprecations.jpg"
+      }
+    },
+    {
+      "kicker": "資金調達",
+      "headline": "Edelbyte が7,000万ドルを調達、AI エージェント向けデータ基盤",
+      "body": "リードは Sequoia と Quiet Capital。検索・分析・ベクトル・グラフ・地理空間のデータを1つの基盤で扱える。料金は従量課金で、計算は vCore 時間、保存は GB・月で計算し、最低利用額はない。",
+      "url": "https://thebridge.jp/2026/11/edelbyte-raises-70m-data-platform-ai-agents",
+      "source": "BRIDGE",
+      "image": {
+        "src": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/11/screenshot_580979.png?resize=1200%2C675&ssl=1"
+      }
+    },
+    {
+      "kicker": "米国市場",
+      "headline": "米株は小幅まちまち、ナスダックは0.9%安",
+      "body": "11月13日の終値は S&P500 が7,561.67(0.4%安)、ダウが52,347.55(0.1%高)、ナスダックが25,136.27(0.9%安)、ラッセル2000が2,790.49。週間では S&P500 が2.5%高、ダウが2.1%高、ナスダックが2.3%高だった。",
+      "url": "https://krmg.com/2026/11/13/how-major-us-stock-indexes-fared-friday-11-13-2026/",
+      "source": "AP（KRMG）",
+      "image": {
+        "src": "https://krmg.com/wp-content/uploads/2026/10/krmg-logo-social-horizontal.png"
+      }
+    },
+    {
+      "kicker": "日本市場",
+      "headline": "日経平均は反発、大引けは6万1142円35銭",
+      "body": "11月13日の日経平均は322円99銭高で取引を終えた。海外勢の先物買いで一時1000円超上昇する場面もあったが、その後は伸び悩んだ。",
+      "url": "https://moneyworld.jp/news/detail?id=223047",
+      "source": "QUICK Money World",
+      "image": {
+        "src": "https://moneyworld.jp/static/articles/223047/full_image/1794556729598_percente6percent9dpercentb1percente4percentbapercentacpercente5percentb8percent82percente5percenta0percentb4percente3percent82percentafpercente3percent83percentadpercente3percent83percentbcpercente3percent82percentb8percente3percent83percentb3percente3percent82percentb0.jpg"
+      }
+    }
+  ],
+  "numbers": [
+    {
+      "value": "約1%",
+      "label": "Notion が流出の影響を受けたと説明した自社顧客の割合"
+    },
+    {
+      "value": "432GB",
+      "label": "AMD Instinct MI430X が搭載する HBM4 の容量"
+    },
+    {
+      "value": "約4万羽",
+      "label": "旭市の鳥インフルエンザ発生農場の飼養規模"
+    }
+  ],
+  "briefs": [
+    "GitHub Copilot アプリ、GitHub Enterprise Server 対応が一般提供に。クラウドセッションは非対応。",
+    "GitHub Actions のホステッドランナー、ARM32 の Linux・Windows を12月8日までに終了。",
+    "Edelbyte、AI エージェント向けデータ基盤で7,000万ドルを調達。最低利用額なしの従量課金。"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "今日のトップは、AI 機能の裏側にある外部委託先が情報流出の経路になった事例だった。便利なサービスほど、見えない部分に多くの事業者が連なっている。自分のデータがどこを通るのかを知ることが、地味ながら大切な備えになるのかもしれない。"
+  },
+  "issue_no": 2
+}
