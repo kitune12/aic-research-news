@@ -70,6 +70,9 @@ body{margin:0;background:#d9d3c7;color:var(--ink);
 .foot{margin-top:24px;border-top:4px double var(--rule);padding-top:8px;font-size:12px;color:var(--sub);
  display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
 .foot a{color:var(--sub)}
+.hl{color:inherit;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.2em;text-decoration-color:var(--sub)}
+.hl:hover,.hl:focus-visible{text-decoration-thickness:2px;text-decoration-color:currentColor}
+body.shot .hl{text-decoration:none}
 @media (min-width:760px){
  .sheet{padding:40px 48px 56px}
  .cols{column-count:3;column-gap:28px;column-rule:1px solid #bbb}
@@ -211,6 +214,15 @@ def figure(item):
     )
 
 
+def hl(item):
+    """見出し文字列。元記事 url があれば参照元へのリンクにする（syu 指示 2026-11-13）。"""
+    text = e(item["headline"])
+    u = item.get("url")
+    if not u:
+        return text
+    return f'<a class="hl" href="{e(u)}" target="_blank" rel="noopener">{text}</a>'
+
+
 def fetch_og_image(url, timeout=8):
     """元記事ページから og:image / twitter:image の URL を取る（取れなければ空文字）。"""
     try:
@@ -248,12 +260,12 @@ def render_full(issue, archive_url=None, body_class=""):
     body = "".join(f"<p>{e(p)}</p>" for p in t["body"])
     stories = "".join(
         f'<article class="story">{figure(s)}<span class="kicker">{e(s["kicker"])}</span>'
-        f'<h2>{e(s["headline"])}</h2><p>{e(s["body"])}</p></article>'
+        f'<h2>{hl(s)}</h2><p>{e(s["body"])}</p></article>'
         for s in issue.get("stories", [])[:MAIN_STORIES]
     )
     minis = "".join(
         f'<article class="mini">{figure(s)}<span class="kicker">{e(s["kicker"])}</span>'
-        f'<h4>{e(s["headline"])}</h4><p>{e(first_sentence(s["body"]))}</p></article>'
+        f'<h4>{hl(s)}</h4><p>{e(first_sentence(s["body"]))}</p></article>'
         for s in issue.get("stories", [])[MAIN_STORIES:]
     )
     nums = "".join(
@@ -272,7 +284,7 @@ def render_full(issue, archive_url=None, body_class=""):
         + f'<body class="{body_class}"><div class="sheet">'
         + masthead(issue)
         + f'<section class="top"><span class="kicker">{e(t["kicker"])}</span>'
-        f'<h1>{e(t["headline"])}</h1><p class="subhead">{e(t["subhead"])}</p>'
+        f'<h1>{hl(t)}</h1><p class="subhead">{e(t["subhead"])}</p>'
         f'<div class="topwrap"><div>{figure(t)}</div><p class="lead">{e(t["lead"])}</p></div>'
         f'<div class="cols">{body}</div></section>'
         + f'<section class="grid">{stories}</section>'
