@@ -1,121 +1,157 @@
 {
-  "_note": "ダミー号。本番はリサーチ事業部がこの形式で書き出す。",
   "date": "2026-11-13",
   "issue_no": 1,
   "top": {
     "kicker": "特集",
-    "headline": "生成AIの業務利用、中小企業で「試行」から「定着」へ",
-    "subhead": "社内手順書の自動化が先行、課題は評価の仕組み",
-    "lead": "（ダミー記事）国内の中小企業で、生成AIを日常業務に組み込む動きが広がっている。最初の入り口は議事録や手順書の整備で、効果が数字で見えやすい領域から定着が進んでいる。",
+    "headline": "エヌビディアのフアンCEOが事実上の解任、AI相場に揺さぶり",
+    "subhead": "株価は一時13%近く急落、アジア市場は影響を見極めながら小幅高",
+    "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008844035",
+    "source": "SBS",
+    "lead": "AI半導体の最大手エヌビディアで、創業者のジェンスン・フアンCEOが事実上解任されたと各国メディアが報じた。AIブームの中心企業のトップ交代で、関連銘柄全体への波及が焦点になっている。",
     "body": [
-      "（ダミー）調査対象のうち、半年以上継続して使っている企業では、文書作成にかかる時間が平均で3割ほど減ったという。一方で、出力の正しさを誰がどう確かめるかを決めていない企業ほど、途中で利用をやめる傾向があった。",
-      "（ダミー）専門家は「使い方の研修より、確認の担当と手順を先に決めるほうが定着しやすい」と話す。AIカンパニーでも、判断・監査系を別のモデルに任せる運用がこの考え方に近い。",
-      "（ダミー）今後は、社外とのやりとりにどこまで使うかが次の論点になりそうだ。"
+      "韓国SBSによると、フアン氏をめぐる複数の疑惑が表面化したことを受けて事実上の解任に至った。発表後、エヌビディア株は取引序盤に一時13%近く下げ、終値でも4%超の下落となった。",
+      "一方、13日のアジア市場は落ち着いた滑り出しとなった。Bloombergは、MSCIアジア太平洋指数が韓国株主導で0.3%上昇し、米株価指数先物もナスダック100が0.6%高と持ち直していると伝えている。暫定CEOには財務責任者のコレット・クレス氏が就くと海外メディアが報じている。",
+      "AIカンパニーの事業に直接の影響はないが、GPU供給や価格、AI関連株の値動きを通じて、クラウドやAPIの料金に波及する可能性がある。リサーチ事業部では来週以降も続報を追う。"
     ],
     "image": {
-      "src": "img/top.jpg"
-    },
-    "url": "https://example.com/article1",
-    "source": "サンプル通信"
+      "src": "https://img.sbs.co.kr/newimg/news/20261113/202240563_1280.jpg"
+    }
   },
   "stories": [
     {
       "kicker": "市場",
-      "headline": "国内SaaS、価格改定の波",
-      "body": "（ダミー）主要な業務SaaSで年内の値上げ発表が相次いだ。AI機能の標準搭載を理由に挙げる例が多く、利用部門では契約の見直しが始まっている。",
+      "headline": "日経平均は反発スタート、上げ幅800円超",
+      "url": "https://www.zaikei.co.jp/article/20261113/877380.html",
+      "source": "財経新聞",
+      "body": "13日の東京株式市場は買いが先行し、日経平均は寄り付き後に上げ幅を800円超まで広げた。前日の終値は6万819円で、200日移動平均線がある6万2100円付近が上値の目安として意識されている。",
       "image": {
-        "src": "img/saas.jpg"
-      },
-      "url": "https://example.com/article2",
-      "source": "サンプル経済"
-    },
-    {
-      "kicker": "技術",
-      "headline": "小型モデルの社内運用、手元PCでも現実的に",
-      "body": "（ダミー）家庭用のPCでも動く小型モデルの性能が上がり、機密データを外に出さずに要約や分類を行う事例が増えた。ラズパイでの常時運用を試す個人も出てきた。",
-      "image": {
-        "src": "img/model.jpg"
-      },
-      "url": "https://example.com/article3",
-      "source": "サンプルテック"
-    },
-    {
-      "kicker": "規制",
-      "headline": "AI生成物の表示ルール、業界団体が指針案",
-      "body": "（ダミー）広告やSNS投稿でAI生成画像を使う場合の表示方法について、業界団体が指針案を公表した。意見募集は来月末まで。"
-    },
-    {
-      "kicker": "海外",
-      "headline": "米大手、企業向けAIエージェントの新料金体系",
-      "body": "（ダミー）利用回数ではなく成果件数で課金する方式を発表した。導入企業の予算の立て方が変わりそうだ。",
-      "url": "https://example.com/article4",
-      "source": "サンプル海外",
-      "image": {
-        "src": "https://example.invalid/broken.jpg"
+        "src": "https://www.zaikei.co.jp/images/zaikei_og_image.jpg"
       }
     },
     {
-      "kicker": "人材",
-      "headline": "AI活用人材の求人、前年の1.5倍に",
-      "body": "（ダミー）転職サイト各社の集計で、業務でAIを使える人材の求人が大きく増えた。未経験可の募集も目立つ。"
-    },
-    {
-      "kicker": "事例",
-      "headline": "地方の工務店、見積書作成をAIで半日短縮",
-      "body": "（ダミー）過去の見積データを学習させ、下書きを自動で作る仕組みを導入した。確認は必ず社員が行う。"
-    },
-    {
-      "kicker": "研究",
-      "headline": "長文の読解精度、新手法で向上",
-      "body": "（ダミー）大学の研究チームが、長い文書の要点を取りこぼしにくくする手法を発表した。"
-    },
-    {
-      "kicker": "セキュリティ",
-      "headline": "社内AIへの「なりすまし指示」に注意喚起",
-      "body": "（ダミー）外部の文書に紛れ込ませた指示でAIを操る手口について、専門機関が対策をまとめた。"
+      "kicker": "AIモデル",
+      "headline": "Google、新しい主力モデル「Gemini 4 Hydrogen」を発表",
+      "url": "https://qiita.com/lhjjjk4/items/1a9db069df44d84a7428",
+      "source": "Qiita（AI日報）",
+      "body": "大量処理向けの標準モデルとしてGemini 3.8 Flashの後を継ぐ。入力100万トークンあたり1.50ドルと安く、小さな依頼を何百回も繰り返すエージェント用途でも採算が合う水準になった。上位の思考モード「xhigh」も新設された。",
+      "image": {
+        "src": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRmxoMy5nb29nbGV1c2VyY29udGVudC5jb20lMkZhJTJGQUFUWEFKejRJUk9sRzB3UnBpYlA1b0YzWHo2Y291MTdHYXVwYkw1X3dTUUIlM0RzNTAtbW8_aXhsaWI9cmItNC4xLjEmYXI9MSUzQTEmZml0PWNyb3AmbWFzaz1lbGxpcHNlJmJnPUZGRkZGRiZmbT1wbmczMiZzPWIyZjY1NmMxN2E4ZTk4ZGYyY2VkYmU5MmUzM2MwOTQ3%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dd01cdc4a99f3e3f94b607574520e6034?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9QUklRTYlOTclQTUlRTUlQTAlQjElMjAyMDI2JUU1JUI5JUI0MTElRTYlOUMlODgxMyVFNiU5NyVBNSVFRiVCQyU5QUdlbWluaSUyMDQlMjBIeWRyb2dlbiVFMyU4MSU4QyVFMyU4MyU4NyVFMyU4MyU5NSVFMyU4MiVBOSVFMyU4MyVBQiVFMyU4MyU4OCVFNCVCOCVCQiVFNSU4QSU5QiVFMyU4MSVBQiVFMyU4MCU4MUdvb2dsZSVFMyU4MSVBRUFJJUUzJTgyJUIwJUUzJTgzJUE5JUUzJTgyJUI5JUU0JUJBJTg4JUU3JUI0JTg0JUU5JTk2JThCJUU1JUE3JThCJUUzJTgwJTgxQ28lRTIlODAlQTYmdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz03YTY5Mjk1NzdmNDQ2YzFhYzhmMjAxMWY0ZWJkZDkwOQ&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBsaGpqams0JnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9NTUwY2Y1ZTE4YzU4OWQ1NDhlYzgyYTBkYjQ4NzI2MTQ&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=0099d1d81be78daf674d1b4a4a140120"
+      }
     },
     {
       "kicker": "ツール",
-      "headline": "表計算ソフトのAI機能、無料版にも拡大",
-      "body": "（ダミー）関数の提案やグラフ作成の補助が無料プランでも使えるようになった。"
+      "headline": "Claudeに表計算とホワイトボード、チームで共同編集",
+      "url": "https://claude.com/blog/sheets-whiteboards-data",
+      "source": "Claude公式ブログ",
+      "body": "AnthropicはClaude SheetsとClaude Whiteboardsをベータ版で公開し、ダッシュボード機能をClaude Dataとして正式版にした。有料プランで使え、チャットの中で表やボードを作って共有できる。",
+      "image": {
+        "src": "https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og"
+      }
     },
     {
-      "kicker": "教育",
-      "headline": "高校の情報科、AIとの付き合い方を必修単元に",
-      "body": "（ダミー）来年度から、生成AIの仕組みと注意点を学ぶ単元が加わる。"
+      "kicker": "障害",
+      "headline": "Microsoft 365で大規模障害、Outlook・Teams・Copilotに影響",
+      "url": "https://note.com/colobber_ai_bs/n/n74aa8be1bf52",
+      "source": "note",
+      "body": "日本時間13日未明から、Microsoftの複数サービスで接続しにくい状態が続いた。同社は代替の監視方式で一部サーバーの復旧を確認したとしている。業務でOutlookやTeamsを使う企業は影響の確認が必要だ。",
+      "image": {
+        "src": "https://assets.st-note.com/production/uploads/images/335429430/rectangle_large_type_2_5a4757665ca0b9217d48b20bc5cbe1ac.png?fit=bounds&quality=85&width=1280"
+      }
     },
     {
-      "kicker": "イベント",
-      "headline": "国内最大級のAI展示会、来月開催",
-      "body": "（ダミー）出展は過去最多の見込み。リサーチ部は2日目に取材予定。"
+      "kicker": "デバイス",
+      "headline": "GoogleのAIメガネ、395ドルから予約開始",
+      "url": "https://www.wired.com/story/google-samsung-intelligent-eyewear-launch-warby-parker-gentle-monster-smart-glasses",
+      "source": "WIRED",
+      "body": "デザインはWarby ParkerとGentle Monster、本体はSamsungが手がけ、12月10日に米国と韓国で発売する。レンズに画面はなく、「Hey Gemini」と話しかけるかフレームをタップして使う。",
+      "image": {
+        "src": "https://media.wired.com/photos/6af47aa0e19a3e976bf95d8a/191:100/w_1280,c_limit/DSC_0094.jpg"
+      }
     },
     {
-      "kicker": "調査",
-      "headline": "個人のAI課金、月1,000円台が最多",
-      "body": "（ダミー）有料プランを使う個人の支出額は月1,000〜2,000円が最も多かった。"
+      "kicker": "セキュリティ",
+      "headline": "Fireworks AI、10月の侵入被害を拡大して報告",
+      "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+      "source": "Fireworks AI",
+      "body": "第三者のクラウド事業者を経由した2段階目の攻撃で、請求情報や一部顧客の秘密情報、モデルの重みの一部が漏れたとした。当初は顧客データへの影響はないと説明しており、取引先の離脱も報じられている。",
+      "image": {}
+    },
+    {
+      "kicker": "開発",
+      "headline": "OpenAI、脆弱性スキャンのCodex Securityを公開",
+      "url": "https://github.com/openai",
+      "source": "GitHub",
+      "body": "コードの問題を探して検証し、修正案まで作るCLIとTypeScript SDKをオープンソースにした。中断したスキャンの再開や費用の上限設定にも対応した。",
+      "image": {}
+    },
+    {
+      "kicker": "料金",
+      "headline": "Zendesk、AIが解決した件数で払う料金体系",
+      "url": "https://www.zendesk.com/company/newsroom/",
+      "source": "Zendesk",
+      "body": "席数ではなく、AIが問い合わせを解決できた分だけ課金する仕組みを発表した。「解決」をどう判定するかは今後の論点になりそうだ。",
+      "image": {}
+    },
+    {
+      "kicker": "自動化",
+      "headline": "n8n、手元で動く個人用エージェント「Nod」を公開",
+      "url": "https://github.com/n8n-io",
+      "source": "GitHub",
+      "body": "MacやWindowsで動き、アプリやサイトをまたぐ作業を自動でこなす。使うAIモデルは自分で選べ、オープンソースで公開された。",
+      "image": {}
+    },
+    {
+      "kicker": "開発",
+      "headline": "VS Code、エディタ内の旧エージェント機能を3カ月後に廃止",
+      "url": "https://code.visualstudio.com/updates",
+      "source": "VS Code",
+      "body": "最新版1.146で、ローカルのエージェント実行機能を非推奨にした。今後はCopilot側の仕組みに開発を集中させる。",
+      "image": {
+        "src": "https://code.visualstudio.com/assets/updates/1_146/release-highlights.webp"
+      }
+    },
+    {
+      "kicker": "企業",
+      "headline": "Anthropic、2四半期連続の営業黒字見通し",
+      "url": "https://legalagent.co.jp/legal-lab/ai-news/",
+      "source": "LegalAgent（FT報道）",
+      "body": "英FTによると、株主に調整後営業利益が2四半期続けて黒字になる見通しを示した。粗利益率は80%を超えるという。",
+      "image": {
+        "src": "https://legalagent.co.jp/assets/legal-lab/topic-ai-news.png"
+      }
+    },
+    {
+      "kicker": "ローカルAI",
+      "headline": "Qwenの軽量版、12GB未満のメモリでも動作",
+      "url": "https://qiita.com/ishisaka/items/f8ce44fbebfa77808469",
+      "source": "Qiita",
+      "body": "UnslothがAlibabaのQwen3.8-27Bを独自手法で軽量化して無償公開した。精度は従来より5〜10%上がったとしている。",
+      "image": {
+        "src": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkYyNzAzNyUyRmNkOWZlNDhkNjhjOTg0NGQ5MmNlOTE5NzI0MTcxNGFmNWM0ZjRiMDklMkZ4X2xhcmdlLnBuZyUzRjE3NjQ2MzI1MTg_aXhsaWI9cmItNC4xLjEmYXI9MSUzQTEmZml0PWNyb3AmbWFzaz1lbGxpcHNlJmJnPUZGRkZGRiZmbT1wbmczMiZzPTBkODAwMTIyNWFmOGEyZmI5NTIwZTMzZTQyYTMxNDE0%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3De1362e63bcf5b681cb9efc63565c4766?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgzJTk3JUUzJTgzJUFEJUUzJTgyJUIwJUUzJTgzJUE5JUUzJTgzJTlGJUUzJTgzJUIzJUUzJTgyJUIwJUU5JTlCJTkxJUU4JUE4JTk4JTIwMjAyNiVFNSVCOSVCNDExJUU2JTlDJTg4MTMlRTYlOTclQTUmdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz0wMWM2YjFlZDgzNzkyM2Y5ZjBhOGExMmJlNDgwMWExMg&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBpc2hpc2FrYSZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTc3OTYzODM5MTE1ODMzOTZhYWY5ZGRmNTMyNDkxMWI2&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=c556abcc252893805dbe3e95c7b96c93"
+      }
     }
   ],
   "numbers": [
     {
-      "value": "31%",
-      "label": "文書作成時間の削減（ダミー）"
+      "value": "60,819円",
+      "label": "日経平均 前日終値（−429円）"
     },
     {
-      "value": "4社に1社",
-      "label": "評価担当を決めている企業（ダミー）"
+      "value": "159.8円",
+      "label": "ドル円（13日朝）"
     },
     {
-      "value": "13本",
-      "label": "今号で取り上げた記事"
+      "value": "$1.50",
+      "label": "Gemini 4 Hydrogen 入力100万トークン"
     }
   ],
   "briefs": [
-    "（ダミー）大手クラウド各社が日本リージョンでの新モデル提供を開始",
-    "（ダミー）note の有料記事、AI関連カテゴリの購読数が前年比で増加",
-    "（ダミー）来週は国内AIイベントが3件。リサーチ部が取材予定"
+    "Metaに合流したConductorのクラウド版が今日から読み取り専用に。20日に停止",
+    "Anthropic、ClaudeのWhiteboards・Sheetsは有料プランで利用可能。Enterpriseは既定でオフ",
+    "66年前の論文が人類滅亡日とした「2026年11月13日（金）」は今日。予測は外れる見込み"
   ],
   "column": {
     "title": "編集後記",
-    "body": "（ダミー）創刊号です。文字だけの報告より、見出しの大小で重要度が一目でわかる形を目指しました。読みにくい所があれば受付箱へ。"
+    "body": "創刊号は13日の金曜日。大きなニュースがあると、文字だけの報告では埋もれがちです。見出しの大きさで重要度がわかる紙面にしてみました。読みにくい所があれば受付箱へ。"
   }
 }
