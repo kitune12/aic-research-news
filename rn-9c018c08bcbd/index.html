@@ -42,6 +42,9 @@ body{margin:0;background:#d9d3c7;color:var(--ink);
  .side{grid-template-columns:1fr 1fr 1fr}
 }
 figure{margin:10px 0 12px}
+figure .phwrap{position:relative}
+figure .phwrap img.ph{position:absolute;inset:0;height:100%}
+body.front .top .phwrap,body.front .top .phwrap .ph{height:270px}
 figure .ph{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--box);filter:saturate(.85) contrast(1.02)}
 figure svg.ph{height:auto}
 figcaption{font-size:11px;color:var(--sub);margin-top:3px;text-align:right;

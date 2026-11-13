@@ -13,10 +13,10 @@
       "（ダミー）今後は、社外とのやりとりにどこまで使うかが次の論点になりそうだ。"
     ],
     "image": {
-      "src": "img/top.jpg",
-      "credit": "サンプル通信",
-      "link": "https://example.com/article1"
-    }
+      "src": "img/top.jpg"
+    },
+    "url": "https://example.com/article1",
+    "source": "サンプル通信"
   },
   "stories": [
     {
@@ -24,20 +24,20 @@
       "headline": "国内SaaS、価格改定の波",
       "body": "（ダミー）主要な業務SaaSで年内の値上げ発表が相次いだ。AI機能の標準搭載を理由に挙げる例が多く、利用部門では契約の見直しが始まっている。",
       "image": {
-        "src": "img/saas.jpg",
-        "credit": "サンプル経済",
-        "link": "https://example.com/article2"
-      }
+        "src": "img/saas.jpg"
+      },
+      "url": "https://example.com/article2",
+      "source": "サンプル経済"
     },
     {
       "kicker": "技術",
       "headline": "小型モデルの社内運用、手元PCでも現実的に",
       "body": "（ダミー）家庭用のPCでも動く小型モデルの性能が上がり、機密データを外に出さずに要約や分類を行う事例が増えた。ラズパイでの常時運用を試す個人も出てきた。",
       "image": {
-        "src": "img/model.jpg",
-        "credit": "サンプルテック",
-        "link": "https://example.com/article3"
-      }
+        "src": "img/model.jpg"
+      },
+      "url": "https://example.com/article3",
+      "source": "サンプルテック"
     },
     {
       "kicker": "規制",
@@ -47,7 +47,12 @@
     {
       "kicker": "海外",
       "headline": "米大手、企業向けAIエージェントの新料金体系",
-      "body": "（ダミー）利用回数ではなく成果件数で課金する方式を発表した。導入企業の予算の立て方が変わりそうだ。"
+      "body": "（ダミー）利用回数ではなく成果件数で課金する方式を発表した。導入企業の予算の立て方が変わりそうだ。",
+      "url": "https://example.com/article4",
+      "source": "サンプル海外",
+      "image": {
+        "src": "https://example.invalid/broken.jpg"
+      }
     },
     {
       "kicker": "人材",
