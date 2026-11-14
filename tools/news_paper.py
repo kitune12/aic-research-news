@@ -240,6 +240,37 @@ def fetch_og_image(url, timeout=8):
     return ""
 
 
+# 今日の数字は固定 3 つ（syu 指示 2026-11-14）。公開時に Yahoo Finance から取得し、号 JSON の numbers を上書きする
+MARKETS = [("^GSPC", "S&P500", "{:,.2f}", False), ("^N225", "日経平均", "{:,.0f}円", False), ("JPY=X", "ドル円", "{:.2f}円", True)]
+
+
+def fetch_markets():
+    import datetime as _dt
+    jst = _dt.timezone(_dt.timedelta(hours=9))
+    out = []
+    for sym, name, fmt, live in MARKETS:
+        try:
+            u = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(sym)}?range=10d&interval=1d"
+            req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=15) as r:
+                res = json.load(r)["chart"]["result"][0]
+            m = res["meta"]
+            price, t = m["regularMarketPrice"], m["regularMarketTime"]
+            ex = _dt.timezone(_dt.timedelta(seconds=m.get("gmtoffset", 32400)))  # 取引所の現地時間で日付を比べる
+            day = _dt.datetime.fromtimestamp(t, ex).date()
+            prev = None
+            for ts, c in zip(res["timestamp"], res["indicators"]["quote"][0]["close"]):
+                if c is not None and _dt.datetime.fromtimestamp(ts, ex).date() < day:
+                    prev = c
+            chg = f"・{'▲' if price >= prev else '▼'}{abs(price / prev - 1) * 100:.2f}%" if prev else ""
+            when = _dt.datetime.fromtimestamp(t, jst).strftime("%-m/%-d %H:%M 時点") if live \
+                else f"{day.month}/{day.day} 終値"
+            out.append({"value": fmt.format(price), "label": f"{name}（{when}{chg}）"})
+        except Exception:
+            out.append({"value": "—", "label": f"{name}（取得できず）"})
+    return out
+
+
 def fetch_og_images(issue):
     """url があって画像未指定の記事に、元記事のサムネイル URL を埋める。"""
     for item in [issue["top"]] + issue.get("stories", []):
@@ -419,6 +450,7 @@ def main():
 
     if not a.no_fetch:
         fetch_og_images(issue)
+        issue["numbers"] = fetch_markets()
 
     # ローカル画像（JSON からの相対パス）は号フォルダの img/ にコピーして参照を張り替える
     base = os.path.dirname(os.path.abspath(a.issue))
