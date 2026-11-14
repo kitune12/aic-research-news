@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-15",
+  "top": {
+    "kicker": "モデル廃止",
+    "headline": "GitHub Copilot、一部モデルを12月14日に廃止",
+    "subhead": "Claude・Gemini・Grok の複数モデルが対象、代替モデルへの切り替えを案内",
+    "lead": "GitHub は11月13日、Copilot で提供している一部の AI モデルを12月14日に廃止すると発表した。モデルを固定指定している利用者は、設定の見直しが必要になる。",
+    "body": [
+      "発表によると、Claude Fable 5 は 5.2 に、Claude Haiku 4.5 は 5.5 に置き換わる。年額の個人プランについては継続される。Gemini 3.8 Flash は Gemini 4 Hydrogen に、Gemini 4 Argon は Gemini 4 Carbon に、Grok 4.6 は 4.7 に移る。",
+      "一方で Kimi K3 には代替モデルが示されていない。廃止の期日は12月14日だ。",
+      "AI モデルの世代交代が月単位で進むなか、特定モデルを名指しで設定に固めている場合は、期日までに見直さないと動作に影響が出るおそれがある。利用中のモデルがいつ廃止されるかを把握しておく運用が求められそうだ。"
+    ],
+    "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+    "source": "GitHub",
+    "image": {
+      "src": "https://github.blog/wp-content/uploads/2026/11/645867806-878ea927-48c9-4765-a896-4a5f3d7b8f2e.jpg"
+    }
+  },
+  "stories": [
+    {
+      "kicker": "企業 AI",
+      "headline": "OpenAI と Databricks、企業データ上での利用を拡充",
+      "body": "GPT-6 系と gpt-oss を、SQL・ノートブック・エージェントから呼び出せるようになる。Codex 向けプラグインや ChatGPT との接続も用意される。提携は2025年9月に始まった複数年契約で、提供日や数値は示されていない。",
+      "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
+      "source": "Databricks",
+      "image": {
+        "src": "https://www.databricks.com/sites/default/files/blog_images/openai-and-databricks-enterprise-ai-on-your-blog-img-og.png"
+      }
+    },
+    {
+      "kicker": "資金調達",
+      "headline": "LangChain がシリーズ C で3億ドル、評価額30億ドル",
+      "body": "CapitalG がリードした。資金はエージェントの運用基盤 LangSmith に充てられる。エージェントを作る段階から、管理・統制する段階へ投資の対象が移りつつあるとみられる。",
+      "url": "https://www.unite.ai/langchain-secures-300m-series-c-at-3b-valuation-for-agent-governance",
+      "source": "Unite.AI",
+      "image": {
+        "src": "https://www.unite.ai/wp-content/uploads/2026/11/langchain-team-interrupt-hero.jpg"
+      }
+    },
+    {
+      "kicker": "資金調達",
+      "headline": "Mercor が7.5億ドルを調達、評価額200億ドル",
+      "body": "シリーズ D で、Nvidia や Salesforce などが参加した。専門人材を AI モデルの学習に配置する事業を手がける。AI の学習データを人が作る市場に、資金が集まり続けている。",
+      "url": "https://www.staffingindustry.com/news/global-daily-news/mercor-lands-750m-funding-round-valuing-staffing-platform-at-20b",
+      "source": "Staffing Industry Analysts",
+      "image": {
+        "src": "https://crain-platform-sia-prod.s3.amazonaws.com/public/dreamstime/31031282.jpg"
+      }
+    },
+    {
+      "kicker": "開発ツール",
+      "headline": "GitHub のコードスキャン AI Scan、REST API で管理可能に",
+      "body": "公開プレビューとして、組織やリポジトリ単位で `repository_scan` を切り替えられる。有効にしてもスキャンは自動では始まらず、実行のたびに AI クレジットを消費する。GHES は非対応。",
+      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+      "source": "GitHub",
+      "image": {
+        "src": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg"
+      }
+    },
+    {
+      "kicker": "為替",
+      "headline": "円が159.99円、9月初め以来の安値",
+      "body": "週間で約1%下落した。ドル指数は103.21で、週間では0.9%高となる見通し。7月下旬に163.99円をつけた際、政府は15.4兆円の円買い介入を行っており、160円台が警戒ラインとして意識される。片山財務相は13日、為替の変動に適切に対応すると述べた。",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-11-13/dollar-set-best-week-two-months-weak-yen-captures-tokyos-attention",
+      "source": "Reuters（Kitco 転載）",
+      "image": {
+        "src": "https://images.kitco.com/img/extract_0_0_1279_720,width_1200,enlarge,format_jpeg/icms/852274e0-dbf7-4f10-ad77-fb757d6893c9.webp"
+      }
+    },
+    {
+      "kicker": "米金融政策",
+      "headline": "FRB のジェファーソン副議長、物価の動きを重視",
+      "body": "11月13日の講演で、経済は成長し労働市場は安定しているとしたうえで、今後はデータ次第との姿勢を示した。追加利上げについて具体的な指針は示していない。FRB は9月に0.25%の利上げを行っている。",
+      "url": "https://www.933thedrive.com/2026/11/13/feds-jefferson-says-he-is-taking-his-policy-cues-from-inflation/",
+      "source": "Reuters（933 The Drive 転載）",
+      "image": {
+        "src": "https://storage.googleapis.com/media.mwcradio.com/mimesis/2026-11/14/2026-11-14T000825Z_1_LYNXNPEMAD006_RTROPTP_3_USA-FED-JEFFERSON.JPG"
+      }
+    },
+    {
+      "kicker": "EU 規制",
+      "headline": "EU 首脳、ダブリンの非公式会合で AI 主権を討議",
+      "body": "AI 主権と計算能力を取り上げた、首脳レベル初の AI 専用の討議となった。非公式会合のため、拘束力のある結論は出していない。AI 法の高リスク規定は、単体で2027年12月2日、製品組み込みで2028年8月2日に適用される予定だ。",
+      "url": "https://finchannel.com/eu-leaders-put-ai-sovereignty-computing-capacity-and-safeguards-on-dublin-agenda/141447/world-2/europe/2026/11/",
+      "source": "The FINANCIAL",
+      "image": {
+        "src": "https://finchannel.com/wp-content/uploads/2026/11/EU-Dublin-Zelenski.jpeg"
+      }
+    }
+  ],
+  "briefs": [
+    "Copilot の一部モデルが12月14日に廃止。Kimi K3 は代替未定。",
+    "LangChain が3億ドル、Mercor が7.5億ドルを調達。エージェント関連に資金が集まる。",
+    "円は159.99円と9月初め以来の安値。FRB 副議長は物価を重視する姿勢。"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "今日のトップは、AI モデルの廃止予定だった。便利な道具ほど入れ替わりが早く、気づかないうちに期日が迫っていることがある。使っているものの寿命を、ときどき確かめておきたい。"
+  },
+  "issue_no": 3,
+  "_build": "1794694041",
+  "numbers": [
+    {
+      "value": "7,561.67",
+      "label": "S&P500（11/13 終値・▼0.40%）"
+    },
+    {
+      "value": "61,142円",
+      "label": "日経平均（11/13 終値・▲0.53%）"
+    },
+    {
+      "value": "159.69円",
+      "label": "ドル円（11/14 06:59 時点・▼0.03%）"
+    }
+  ]
+}
