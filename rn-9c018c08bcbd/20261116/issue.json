@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-16",
+  "top": {
+    "kicker": "決算",
+    "headline": "NVIDIA、17日に Q3 決算発表 CEO 交代後で初",
+    "subhead": "経営体制の説明と AI 需要の見通しが焦点に",
+    "lead": "NVIDIA は2027会計年度第3四半期の決算を、米太平洋時間11月17日13時20分に発表する。電話会議は14時から。CEO 交代後で初めての決算となる。",
+    "body": [
+      "同社が11月12日付で提出した8-K によると、発表は米太平洋時間13時20分、電話会議は14時の予定だ。",
+      "CEO の交代は11月13日号で伝えたとおりで、現在はクレス CFO が暫定 CEO を兼務している。今回の決算は、新しい体制がどう説明されるかを確かめる最初の場になる。",
+      "注目点は、経営体制についての説明と、AI 需要の見通しの2つになりそうだ。"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+    "source": "SEC（NVIDIA 8-K）",
+    "image": {}
+  },
+  "stories": [
+    {
+      "kicker": "開発ツール",
+      "headline": "Google Antigravity 2.32.0、並列エージェント実行を強化",
+      "body": "11月13日の更新で、改善11件と修正13件が入った。エージェントが並列のサブエージェントや多段の処理を Python で実行する Dynamic Workflows が加わり、サインインの代替手段やエージェントが操作するタブの保護も強化された。IDE 側でエージェントの並列実行が標準機能になりつつある。",
+      "url": "https://antigravity.google/changelog.md",
+      "source": "Google Antigravity",
+      "image": {}
+    },
+    {
+      "kicker": "AI 規制",
+      "headline": "カリフォルニア州保険局、保険分野の AI 保護づくりに着手",
+      "body": "12月15日にオンラインで公開ワークショップを開く。保険会社向けの AI 利用調査は12月30日が回答期限となる。規則案は別途パブリックコメントにかけられる。業界別の AI ルールが州レベルで進む一例だ。",
+      "url": "https://insurancenewsnet.com/oarticle/commissioner-lara-launches-statewide-effort-to-establish-consumer-safeguards-for-ai-in-insurance",
+      "source": "States News Service（InsuranceNewsNet 掲載）",
+      "image": {}
+    },
+    {
+      "kicker": "米国株",
+      "headline": "米株は13日に反落、週間では上昇",
+      "body": "S&P500 は7,561.67、ナスダックは25,136.27で、ダウは52,347.55（+0.10%）だった。週間では S&P500 が +2.51%、ナスダックが +2.27%、ダウが +2.07% となった。週末は利益確定が出たが、週全体では上昇している。",
+      "url": "https://investrade.com/market-review-november-13-2026/",
+      "source": "investrade",
+      "image": {}
+    },
+    {
+      "kicker": "金利",
+      "headline": "米10年債は5.152%、12月の利上げ観測は88%",
+      "body": "10年債利回りは前日比で5.1bp、週間では29.4bp上昇した。WTI 原油は88.56ドル。12月の25bp 利上げの織り込みは88%、50bp は12%とされる。金利の上昇が株の上値を抑える構図が続いている。",
+      "url": "https://investrade.com/market-review-november-13-2026/",
+      "source": "investrade",
+      "image": {}
+    }
+  ],
+  "briefs": [
+    "NVIDIA の決算は11月17日（米太平洋時間13時20分）。CEO 交代後で初。",
+    "Google Antigravity 2.32.0 が公開。並列サブエージェント実行の Dynamic Workflows を搭載。",
+    "カリフォルニア州保険局が AI 保護に着手。12月15日にワークショップ、調査の期限は12月30日。"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "週末は公式の発表が少なく、確かな材料は限られた。今週の注目は、11月17日の NVIDIA 決算と、日本の7-9月期 GDP 速報。数字が出そろう前に結論を急がず、一次資料で確かめてから読みたい。"
+  },
+  "issue_no": 4,
+  "_build": "1794780474",
+  "numbers": [
+    {
+      "value": "7,561.67",
+      "label": "S&P500（11/13 終値・▼0.40%）"
+    },
+    {
+      "value": "61,142円",
+      "label": "日経平均（11/13 終値・▲0.53%）"
+    },
+    {
+      "value": "159.59円",
+      "label": "ドル円（11/16 07:07 時点・▼0.18%）"
+    }
+  ]
+}
