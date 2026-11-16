@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-17",
+  "top": {
+    "kicker": "米国株",
+    "headline": "米株が大幅安、ナスダックは2.49%下落",
+    "subhead": "決算を前にAI株主導で売られ、VIXは22.88に上昇",
+    "lead": "11月16日の米株式市場は大幅に下落した。S&P500は7,416.59（-1.92%）、ナスダックは24,509.76（-2.49%）で取引を終えた。",
+    "body": [
+      "ダウ平均は51,608.17（-1.41%）だった。個別ではNVIDIAが4.12%下げ、恐怖指数とされるVIXは22.88（+18.55%）に上昇した。",
+      "日本時間11月18日朝に予定されるNVIDIAの決算を前に、AI関連株を中心に売りが出た。AI株の調整が指数全体を押し下げた形だ。",
+      "債券と原油も動いた。Yahooの表示では米10年債利回りは5.12%（-0.03）、WTI原油の1月限は83.92ドル（-3.86%）だった。"
+    ],
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
+    "source": "Yahoo Finance",
+    "image": {
+      "src": "https://s.yimg.com/lo/mysterio/api/e53f1033f2d6d01eecc1c3c12b628298a6e9b4a21b8e901ff02f226315a69a13/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F73a48d37-a4c5-48d9-a3d9-6d854e707c3f"
+    }
+  },
+  "stories": [
+    {
+      "kicker": "日本経済",
+      "headline": "7-9月期GDPは年率-0.1%、4四半期ぶりのマイナス",
+      "body": "11月16日公表の1次速報で、実質GDPは前期比年率-0.1%（前期比-0.0%）となった。在庫を除く実質最終需要は年率-2.1%で、輸出減・輸入増で外需もマイナスだった。個人消費は2四半期連続で減り、設備投資は増えた。",
+      "url": "https://www.dir.co.jp/report/research/economics/japan/20261116_026192.html",
+      "source": "大和総研",
+      "image": {
+        "src": "https://www.dir.co.jp/common2/img/logo-ogp-dir.png"
+      }
+    },
+    {
+      "kicker": "輸出規制",
+      "headline": "米商務省、AI半導体への遠隔アクセスを制限する暫定規則",
+      "body": "第三国のデータセンターを経由して、先端AI半導体やサーバーに遠隔からアクセスすることを制限する。輸出規制が迂回されるのを防ぐ狙いだ。規則の範囲は、規制当局の一次資料では確認できていない。",
+      "url": "https://fx.minkabu.jp/news/384576",
+      "source": "みんかぶFX（Bloomberg報道を引用）",
+      "image": {
+        "src": "https://mfx-assets.s3.ap-northeast-1.amazonaws.com/news_ogp/forex.png"
+      }
+    },
+    {
+      "kicker": "AI規制",
+      "headline": "政府、AI事業者にリスク報告を求める法規制を検討",
+      "body": "NHKの報道によると、日本政府はAI事業者にリスク情報の国への報告を求める法規制を検討している。罰則も検討の対象になる。決定ではなく、検討の段階だ。",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76259",
+      "source": "NHK",
+      "image": {
+        "src": "https://imgu.web.nhk/news/u/news/nd/kiji/20261115de76259/20261115de76259_E0000177594_1_l.jpg"
+      }
+    },
+    {
+      "kicker": "セキュリティ",
+      "headline": "Apple、macOS 27.3でAIエージェントを意識した権限制御",
+      "body": "権限をSystem & App Protection OverrideとAccessibilityの2つに分け、都度許可の設定も用意する。アプリが別のアプリを操作している間は、インジケータが表示される。エージェント系アプリは、権限を得る手順の見直しが必要になる。",
+      "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks",
+      "source": "TechCrunch",
+      "image": {
+        "src": "https://techcrunch.com/wp-content/uploads/2024/11/CMC_8152.jpg?resize=1200,800"
+      }
+    },
+    {
+      "kicker": "農業",
+      "headline": "農水省、第4回フラッグシップ輸出産地の募集を開始",
+      "body": "募集は12月15日17時までで、既認定は108産地。練り製品、大学芋、親鶏・廃鶏が対象に加わった。認定は2027年2月上旬の予定。",
+      "url": "https://www.maff.go.jp/j/press/yusyutu_kokusai/s_keisei/261116.html",
+      "source": "農林水産省",
+      "image": {}
+    },
+    {
+      "kicker": "開発ツール",
+      "headline": "rust-analyzer、v0.3.3121で不具合を修正",
+      "body": "Changelog #354では、大きなu128値が負の浮動小数に評価される不具合（#23638）と、derive付きの型でのpanic（#23543）が直った。定期更新で、影響は小さい。",
+      "url": "https://rust-analyzer.github.io/thisweek/2026/11/16/changelog-354.html",
+      "source": "rust-analyzer",
+      "image": {}
+    }
+  ],
+  "briefs": [
+    "S&P500は7,416.59（-1.92%）、ナスダックは24,509.76（-2.49%）。NVIDIAは-4.12%。",
+    "日本の7-9月期GDP1次速報は年率-0.1%。4四半期ぶりのマイナス。",
+    "農水省のフラッグシップ輸出産地、募集は12月15日17時まで。"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "株価の下落、GDPのマイナス、AI規制の動きと、今日は重い話題が並んだ。ただ、規制の検討は決定ではなく、輸出規制の範囲も一次資料では確かめられていない。数字と段階を分けて読みたい。"
+  },
+  "issue_no": 5,
+  "_build": "1794867012",
+  "numbers": [
+    {
+      "value": "7,416.59",
+      "label": "S&P500（11/16 終値・▼1.92%）"
+    },
+    {
+      "value": "59,662円",
+      "label": "日経平均（11/16 終値・▼2.42%）"
+    },
+    {
+      "value": "159.41円",
+      "label": "ドル円（11/17 07:10 時点・▼0.29%）"
+    }
+  ]
+}
