@@ -196,6 +196,63 @@ def source_name(item):
     return urllib.parse.urlparse(u).netloc.removeprefix("www.") if u else ""
 
 
+def ai_fill_images(issue, limit=6):
+    """サムネイルが取れなかった記事に AI 画像（OpenAI）を作って入れる（syu 指示 2026-11-19）。
+    鍵 secrets/openai.env が無ければ何もしない（自前イラストのまま）。画像は号フォルダの img/ に保存される。"""
+    import base64, io, threading
+    here = os.path.dirname(os.path.abspath(__file__))
+    env = os.path.join(here, "secrets", "openai.env")
+    if not os.path.isfile(env):
+        return 0
+    key = dict(re.findall(r"^(\w+)=(.*)$", open(env, encoding="utf-8").read(), re.M)).get("OPENAI_API_KEY", "").strip()
+    if not key:
+        return 0
+    todo = [it for it in [issue["top"]] + issue.get("stories", []) if not (it.get("image") or {}).get("src")][:limit]
+    outdir = tempfile.mkdtemp(prefix="aiimg_")
+    models = [m for m in os.environ.get("NEWS_AI_MODEL", "gpt-image-2,gpt-image-1.5").split(",") if m]
+
+    def work(i, it):
+        prompt = ("Editorial news illustration for a Japanese newspaper-style page. Topic: "
+                  f"{it.get('kicker', '')} - {it['headline']}. Depict the theme symbolically with objects, places or "
+                  "abstract shapes, muted newspaper-friendly colors. No text, no letters, no numbers, no logos, "
+                  "no real or recognizable people, no brand products, no flags.")
+        for model in models:
+            body = {"model": model, "size": "1536x1024", "quality": os.environ.get("NEWS_AI_QUALITY", "low"),
+                    "n": 1, "prompt": prompt}
+            req = urllib.request.Request("https://api.openai.com/v1/images/generations", data=json.dumps(body).encode(),
+                                         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
+            try:
+                with urllib.request.urlopen(req, timeout=180) as r:
+                    raw = base64.b64decode(json.load(r)["data"][0]["b64_json"])
+                break
+            except urllib.error.HTTPError as ex:
+                if ex.code not in (400, 404):
+                    return
+            except Exception:
+                return
+        else:
+            return
+        try:
+            from PIL import Image
+            im = Image.open(io.BytesIO(raw)).convert("RGB")
+            h = int(im.width * 9 / 16)
+            top = (im.height - h) // 2
+            im = im.crop((0, top, im.width, top + h)).resize((1280, 720))
+            path = os.path.join(outdir, f"ai_{i:02d}.jpg")
+            im.save(path, "JPEG", quality=82)
+        except Exception:
+            path = os.path.join(outdir, f"ai_{i:02d}.png")
+            open(path, "wb").write(raw)
+        it["image"] = {"src": path, "ai": True}
+
+    ths = [threading.Thread(target=work, args=(i, it)) for i, it in enumerate(todo)]
+    for t in ths:
+        t.start()
+    for t in ths:
+        t.join()
+    return sum(1 for it in todo if (it.get("image") or {}).get("ai"))
+
+
 def figure(item):
     """元記事のサムネイルを直接表示（ホットリンク）。読み込めない時・画像が無い時は自前イラスト。
     item: {"url": 元記事URL, "source": 媒体名, "image": {"src": 画像URL}}（image は fetch_og_images が自動で埋める）"""
@@ -206,6 +263,8 @@ def figure(item):
     name = e(source_name(item))
     link = item.get("url") or img.get("link")
     cap = f'<a href="{e(link)}" rel="noopener">{name or "元記事"}</a>' if link else name
+    if img.get("ai"):
+        cap = "AI 生成のイメージ"
     return (
         f'<figure><div class="phwrap">{fb}<img class="ph" src="{e(img["src"])}" alt="" '
         'referrerpolicy="no-referrer" onerror="this.remove()"></div>'
@@ -451,6 +510,9 @@ def main():
     if not a.no_fetch:
         fetch_og_images(issue)
         issue["numbers"] = fetch_markets()
+        n_ai = ai_fill_images(issue)
+        if n_ai:
+            print(f"ai_images={n_ai}", file=sys.stderr)
 
     # ローカル画像（JSON からの相対パス）は号フォルダの img/ にコピーして参照を張り替える
     base = os.path.dirname(os.path.abspath(a.issue))
