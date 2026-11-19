@@ -12,7 +12,10 @@
     ],
     "url": "https://www.tipranks.com/news/anthropic-prices-ipo-at-83-setting-up-94-billion-stock-sale",
     "source": "TipRanks（11/18）",
-    "image": {}
+    "image": {
+      "src": "img/ai_00.jpg",
+      "ai": true
+    }
   },
   "stories": [
     {
@@ -81,7 +84,10 @@
       "body": "Johari貿易相は承認済みの117件に通知し、ライセンスと第三者向けサービスについて米当局に明確化を求める方針。2021年以降の投資は約1,000億ドルにのぼる。米国の域外規制が東南アジアのデータセンター投資に波及している。",
       "url": "https://www.investing.com/news/economy-news/malaysia-says-data-centres-must-comply-with-us-ai-chip-rules-5035746",
       "source": "Reuters（Investing.com、11/18）",
-      "image": {}
+      "image": {
+        "src": "img/ai_01.jpg",
+        "ai": true
+      }
     },
     {
       "kicker": "SaaS",
@@ -99,7 +105,10 @@
       "body": "10月の全銘柄平均は玄米60kgあたり21,434円で、前年同月から15,624円（▲42%）下がった。契約数量は10.4万トン。前年の高騰から大きく反落した。",
       "url": "https://www.maff.go.jp/j/press/nousan/kikaku/261118.html",
       "source": "農林水産省（11/18）",
-      "image": {}
+      "image": {
+        "src": "img/ai_02.jpg",
+        "ai": true
+      }
     }
   ],
   "briefs": [
@@ -112,19 +121,19 @@
     "body": "きょうはAnthropicのIPO価格決定、米BISのAIチップ規制、エヌビディアの決算が同じ日に並んだ。事実として、仮条件を上回る価格で940億ドル超の調達が決まり、一方で計算力のリモート提供まで輸出管理の対象になった。マレーシアのように規制への対応を迫られる国も出ている。見立てとして、AIは資金とインフラ、規制が同時に動く局面にあるのかもしれない。ただ、上場初日の値動きは未確認で、BISの規則もまだ官報掲載前。続報を待ちたい。"
   },
   "issue_no": 7,
-  "_build": "1795039725",
+  "_build": "1795048326",
   "numbers": [
     {
-      "value": "7,303.98",
-      "label": "S&P500（11/18 終値・▼0.50%）"
+      "value": "7,323.63",
+      "label": "S&P500（11/18 終値・▼0.23%）"
     },
     {
-      "value": "59,024円",
-      "label": "日経平均（11/18 終値・▲0.28%）"
+      "value": "59,179円",
+      "label": "日経平均（11/19 終値・▲0.54%）"
     },
     {
-      "value": "159.22円",
-      "label": "ドル円（11/19 00:52 時点・▼0.19%）"
+      "value": "159.42円",
+      "label": "ドル円（11/19 09:32 時点・▼0.05%）"
     }
   ]
 }
