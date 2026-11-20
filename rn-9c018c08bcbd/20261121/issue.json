@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-21",
+  "top": {
+    "kicker": "米株急落",
+    "headline": "米株が7日続落、S&P500とダウは調整局面入り",
+    "subhead": "S&P500は6,910.39で3.7%安、ナスダックは5.28%安。AI株の調整が指数全体に波及",
+    "lead": "11月20日の米株式市場は急落し、S&P500は6,910.39（-3.7%）で7日続落となった。",
+    "body": [
+      "ナスダックは-5.28%、ダウは-1.93%。S&P500とダウは高値から10%超下落し、調整局面入りとなった。",
+      "S&P500の7日続落は2020年2月以来との報道がある。AI株の調整が指数全体に広がった形だ。",
+      "この米国のAI株安は、同日の日本市場にも波及している。"
+    ],
+    "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/s-und-p-500-ends-friday-down-3-7-prozent-at-6-910-39-points/70541173",
+    "source": "ad-hoc-news（CNBC引用）",
+    "image": {
+      "src": "https://mdb.ad-hoc-news.de/bild/bild-2405008_1200_675.webp"
+    }
+  },
+  "stories": [
+    {
+      "kicker": "日経急落",
+      "headline": "日経平均、終値56,436.65円で5%超の大幅反落",
+      "body": "11月20日の日経平均終値は56,436.65円で、前日比3,007.56円（5.06%）安。3営業日ぶりの大幅反落で、下げ幅は歴代5位となった。AI・半導体株に売りが集中し、米国のAI株安が波及した。ドル円は159円台前半で推移した。",
+      "url": "https://www.media-ir.com/news/?p=189011",
+      "source": "media-ir",
+      "image": {
+        "src": "https://www.media-ir.com/news/wp-content/uploads/2023/11/t2.jpg"
+      }
+    },
+    {
+      "kicker": "AI操作",
+      "headline": "Google、Gemini for Macにコンピューター操作機能",
+      "body": "ネイティブアプリの操作、フォーム入力、ファイル整理をバックグラウンドで実行できる。実行前に承認・一時停止・停止が可能で、「人が承認してAIが操作する」設計が標準になりつつある。当初は米国・英語のみで、Google AI Plus/Pro/Ultra契約者が対象。",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "source": "TechCrunch",
+      "image": {
+        "src": "https://techcrunch.com/wp-content/uploads/2026/11/hero_header_CU_copy.width-2200.format-webp.jpeg?resize=1200,675"
+      }
+    },
+    {
+      "kicker": "AI規制",
+      "headline": "議会多数派交代後のAI規制、電力・費用負担の個別法が先行か",
+      "body": "民主党が1月に議会多数派となる。データセンターの電力インフラ費用負担が超党派合意の有力分野とされる。NBC出口調査では、AI・データセンターを主要因とした有権者が56%、地元の新設反対が76%に上った。包括規制より個別法が先行しそうだ。",
+      "url": "https://azfamily.com/2026/11/19/whats-next-ai-regulation-once-democrats-control-congress",
+      "source": "AZFamily",
+      "image": {
+        "src": "https://gray-kpho-prod.gtv-cdn.com/resizer/v2/THJQBO5IN5D7HNDBG52J2R6YLE.jpg?auth=0310dad6fba0df57150758edf4df209eb32d9b06766e2c7ce6d57f203d5d2e68&width=1200&height=600&smart=true"
+      }
+    },
+    {
+      "kicker": "資金調達",
+      "headline": "Payhawk、シリーズCで2.8億ドル調達",
+      "body": "ロンドンの経費・購買・支払い管理企業Payhawkが評価額20億ドルで調達した。ARRは1億ユーロ超、顧客は7,000社超。AIエージェントと決済基盤を一体化しており、経理業務のAIエージェント化に大型資金が流れる。",
+      "url": "https://thebridge.jp/2026/11/payhawk-raises-280m-series-c",
+      "source": "THE BRIDGE",
+      "image": {
+        "src": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/11/screenshot_581363.png?resize=1200%2C675&ssl=1"
+      }
+    },
+    {
+      "kicker": "米の需給",
+      "headline": "2026年産主食用米の予想収穫量737万t、供給は十分",
+      "body": "農水省の発表を伝える報道によると、9月見込みから4万t下方修正されたが、需要見通しの最大712万tを25万t上回る。備蓄米は既定の21万tに10万tを追加買い入れる。在庫は高止まりする見込みだ。",
+      "url": "https://jacom.or.jp/articles/J8_hHX9TFeCXrgglb4Xjz",
+      "source": "JAcom",
+      "image": {
+        "src": "https://assets.coreda.biz/jacom/0035a9b7-0d1c-4197-97b4-6af0a778f014"
+      }
+    },
+    {
+      "kicker": "住宅ローン",
+      "headline": "12月利上げの変動金利への反映は2027年1〜5月に分散",
+      "body": "政策金利を1.25%から1.50%へ引き上げると仮定すると、主要行の新規向け変動金利への反映は2027年1〜5月に分散するという。ただし著者の試算であり、各行の公表値ではない。利上げの家計への波及は数か月遅れる。",
+      "url": "https://diamond-fudosan.jp/articles/-/1113376",
+      "source": "ダイヤモンド不動産研究所",
+      "image": {
+        "src": "https://dfudosan.ismcdn.jp/mwimgs/c/f/500/img_cfea8b7ca419d7a47a6481d4efc0c6d318954.png"
+      }
+    },
+    {
+      "kicker": "GitHub",
+      "headline": "Azure DevOpsからのEnterprise Live Migrationsが一般提供に",
+      "body": "移行中も作業を継続でき、データレジデンシー対応のGitHub Enterprise Cloudへ移せる。大規模組織の移行障壁が下がる。",
+      "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
+      "source": "GitHub Changelog",
+      "image": {
+        "src": "https://github.blog/wp-content/uploads/2026/11/709597788-56442ed7-1e51-467b-85b7-14473da23784.png"
+      }
+    },
+    {
+      "kicker": "GitHub",
+      "headline": "GitHub、RHELランナーイメージを一般提供",
+      "body": "larger runners向けにRHEL 9/10を提供する。6月にプレビューが始まっていた。RHEL系のCIを追加構築なしで回せる。",
+      "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
+      "source": "GitHub Changelog",
+      "image": {
+        "src": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg"
+      }
+    },
+    {
+      "kicker": "宇宙AI",
+      "headline": "Google、Project SuncatcherでBlue Originを選定",
+      "body": "宇宙のAI計算基盤「Project Suncatcher」の打ち上げにBlue Originを選んだと伝えられた。目標時期は2029年。なお本文は未確認で、見出しと要約に基づく二次報道。",
+      "url": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029",
+      "source": "The Verge",
+      "image": {
+        "src": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/project-suncatcher-logo.png?quality=90&strip=all&crop=0%2C19.088098918083%2C100%2C61.823802163833&w=1200"
+      }
+    }
+  ],
+  "briefs": [
+    "S&P500の7日続落は2020年2月以来との報道。",
+    "日経平均の11月20日の下げ幅は3,007.56円で、歴代5位。",
+    "米議会の新多数派でも、AI規制は電力・費用負担の個別法が先行しそうだ。"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "米国のAI株安が一夜で日本の半導体株にも及び、市場のつながりを改めて見せつけた。一方でAIの現場では、人が承認してAIが動く設計や、電力負担をめぐる議論が着実に進む。値動きの激しい日ほど、足元の変化を落ち着いて見たい。"
+  },
+  "issue_no": 9,
+  "_build": "1795212448",
+  "numbers": [
+    {
+      "value": "6,910.39",
+      "label": "S&P500（11/20 終値・▼3.70%）"
+    },
+    {
+      "value": "56,437円",
+      "label": "日経平均（11/20 終値・▼5.06%）"
+    },
+    {
+      "value": "158.51円",
+      "label": "ドル円（11/21 06:59 時点・▼0.55%）"
+    }
+  ]
+}
