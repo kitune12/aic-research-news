@@ -3,19 +3,18 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+permissions: {}
 concurrency:
   group: pages
   cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    permissions:
+      contents: write
+      pages: read
+    outputs:
+      artifact_id: ${{ steps.pages_artifact.outputs.artifact_id }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -35,8 +34,47 @@ jobs:
           for i in 1 2 3; do git pull --rebase -q origin main && git push && exit 0; sleep 5; done
           exit 1
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - id: pages_artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: .
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: 公開用ファイルを確認
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_ARTIFACT_ID: ${{ needs.build.outputs.artifact_id }}
+        run: |
+          set -euo pipefail
+          [[ "$EXPECTED_ARTIFACT_ID" =~ ^[1-9][0-9]*$ ]] || {
+            echo '::error::Build did not report a Pages artifact ID.'
+            exit 1
+          }
+          for attempt in 1 2 3 4 5 6; do
+            if metadata=$(timeout 6s gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=github-pages&per_page=100" 2>/dev/null) &&
+               jq -e --arg id "$EXPECTED_ARTIFACT_ID" '
+                 .total_count == 1 and (.artifacts | length == 1) and
+                 (.artifacts[0] | .name == "github-pages" and (.id | tostring) == $id
+                   and .expired == false and .size_in_bytes > 0)
+               ' >/dev/null <<< "$metadata"; then
+              echo "Pages artifact $EXPECTED_ARTIFACT_ID is ready."
+              exit 0
+            fi
+            echo "Waiting for the Pages artifact (attempt $attempt/6)."
+            if [ "$attempt" -lt 6 ]; then sleep 3; fi
+          done
+          echo '::error::The expected Pages artifact did not become visible or was ambiguous.'
+          exit 1
       - id: deploy
         uses: actions/deploy-pages@v4
