@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-22",
+  "top": {
+    "kicker": "米株続落",
+    "headline": "米株が7日続落、S&P500は週間で8.61%下落",
+    "subhead": "11月20日のS&P500は6,910.39で3.70%安。2020年2月以来の連敗",
+    "lead": "S&P500は11月20日（金）に6,910.39（-3.70%）で終え、7日続落となった。",
+    "body": [
+      "週間では-8.61%の下落。連敗の長さは2020年2月以来と報じられている。",
+      "11月21日と22日は米国市場が休場で、数値の更新はない。",
+      "次の取引は11月23日（月）。週明けに反発するかどうかが注目点となる。"
+    ],
+    "url": "https://247wallst.com/investing/2026/11/21/the-sp-500-is-having-the-longest-losing-streak-since-february-2020/",
+    "source": "24/7 Wall St",
+    "image": {
+      "src": "https://247wallst.com/wp-content/uploads/2022/02/imageForEntry44-Gpo.jpg"
+    }
+  },
+  "stories": [
+    {
+      "kicker": "小型AI",
+      "headline": "Thinking Machines、オープンウェイトの「Inkling 2 Mini」を公開",
+      "body": "総パラメータ26.4B、メモリ約20GBで、重みはHugging Faceで公開された。同社の表では、SWE-bench Verifiedが79.2%、MCP Atlasが82.7%。",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "source": "Thinking Machines Lab",
+      "image": {
+        "src": "https://thinkingmachines.ai/news/inkling-2-mini/images/cover-social.png"
+      }
+    },
+    {
+      "kicker": "AI評価",
+      "headline": "OpenAI、化学の評価ベンチ「MedChemBench」を公開",
+      "body": "論文・特許117件に由来する99問で構成される。GPT-6.2 Astra（xhigh）は84.5%、GPT-6 Astraは83.3%だった。元論文に事前に触れていた可能性は排除できない、と本文に注記されている。",
+      "url": "https://openai.com/index/introducing-medchembench/",
+      "source": "OpenAI",
+      "image": {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/37ZvKdwVigsgJ7G3FMr4Nb/12854063a79d19d63278704bf54e3010/introducing-medchembench-social.png?w=1600&h=900&fit=fill"
+      }
+    },
+    {
+      "kicker": "AI操作",
+      "headline": "Claudeのコンピューター操作（beta）、Team／Enterpriseへ拡大",
+      "body": "11月20日付のリリースノートに掲載された。組織向けに段階的に展開される。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Anthropic",
+      "image": {
+        "src": "https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png"
+      }
+    },
+    {
+      "kicker": "開発",
+      "headline": "コーディングエージェントでFPGA上のLLM推論が33.13倍に",
+      "body": "筆者本人の報告によると、AWS f2.6xlarge（時間あたり1.98ドル）で、毎秒6.43トークンから213.13トークンに向上した。同価格帯の32スレッドCPUとの比較では1.65倍。トークン費用は約1万ドルだったという。",
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+      "source": "個人ブログ（Ankit Gupta）",
+      "image": {
+        "src": "https://ankitg.me/assets/fpga-board.png"
+      }
+    },
+    {
+      "kicker": "政策",
+      "headline": "米大統領、海外にAIデータセンターを建てる米企業に課税・罰則と発言",
+      "body": "11月20日の会見で「tremendous tax」「tremendous penalties」と発言した。税率・施行日・法的手段は示されておらず、課税権は議会にあるとAxiosが伝えている。",
+      "url": "https://www.latintimes.com/trump-ai-data-centers-overseas-tax-threat-601669",
+      "source": "Latin Times",
+      "image": {
+        "src": "https://d.latintimes.com/en/full/595165/us-politics-trump.jpg"
+      }
+    },
+    {
+      "kicker": "資金調達",
+      "headline": "Atsumell、プレシリーズAで1.83億円を調達",
+      "body": "担当者の暗黙知を業務フローや判断基準に整理し、MCP／APIでAIエージェントに渡すサービスを手がける。発表は11月17日。",
+      "url": "https://thebridge.jp/2026/11/atsumell-pre-series-a-183-million-yen",
+      "source": "THE BRIDGE",
+      "image": {
+        "src": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/11/screenshot_581303.png?resize=1200%2C675&ssl=1"
+      }
+    },
+    {
+      "kicker": "米卸",
+      "headline": "大手米卸、業績の下方修正が相次ぐ",
+      "body": "記事のリードは「営業損失が相次いでいる」と伝える。ヤマタネは4〜9月期で4億3,600万円の損失。見出しは25年産の高値調達が響くとしている。有料記事のため、冒頭のみ確認した内容。",
+      "url": "https://www.agrinews.co.jp/news/index/420664",
+      "source": "日本農業新聞",
+      "image": {
+        "src": "https://www.agrinews.co.jp/media/2026/11/21/20261121_9cadickfliq1qabkkdtl.jpg"
+      }
+    },
+    {
+      "kicker": "ジビエ",
+      "headline": "ジビエの利用量が過去最大に",
+      "body": "2025年度は3,155トンで、前年度比18%（477トン）増となった。有料記事のため、冒頭のみ確認した内容。",
+      "url": "https://www.agrinews.co.jp/news/index/420654",
+      "source": "日本農業新聞",
+      "image": {
+        "src": "https://www.agrinews.co.jp/media/2026/11/21/20261121_t5wmjlhg9efntlfp7ulm.jpg"
+      }
+    }
+  ],
+  "briefs": [
+    "米市場は11月21日・22日が休場。次の取引は11月23日（月）。",
+    "Thinking MachinesのInkling 2 Miniは、メモリ約20GBで動くオープンウェイトモデル。",
+    "ジビエの2025年度利用量は3,155トンで、過去最大となった。"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "今週は米株の連敗が続き、週末は市場が休みとなった。一方でAIの話題は、手元のPCで動く小型モデルや、人が許可してAIが操作する機能など、使い方の幅が広がる内容が並んだ。新しい数字が出る週明けを、落ち着いて待ちたい。"
+  },
+  "issue_no": 10,
+  "_build": "1795298845",
+  "numbers": [
+    {
+      "value": "6,910.39",
+      "label": "S&P500（11/20 終値・▼3.70%）"
+    },
+    {
+      "value": "56,437円",
+      "label": "日経平均（11/20 終値・▼5.06%）"
+    },
+    {
+      "value": "158.51円",
+      "label": "ドル円（11/21 06:59 時点・▼0.55%）"
+    }
+  ]
+}
