@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-23",
+  "top": {
+    "kicker": "市場防衛",
+    "headline": "アジア当局、週明けを前に市場防衛策。韓国は73億ドルの安定基金を準備",
+    "subhead": "台湾は前日終値割れの空売りを禁止、中国は11月30日から信用取引を拡大",
+    "lead": "週明けの急落を避けるため、韓国・台湾・中国の当局が相次いで市場防衛策を打ち出した。",
+    "body": [
+      "韓国は2008年以来使っていない73億ドルの安定基金を準備し、日曜に緊急会合を開いた。",
+      "台湾は前日終値を下回る価格での空売りを禁止した。中国は11月30日から信用取引を拡大する（約4,000億元）。",
+      "S&P500は7日続落のまま11月23日（月）の取引に入る。当局の防戦が週明けの値動きをどこまで抑えるかが焦点となる。"
+    ],
+    "url": "https://finance.yahoo.com/markets/stocks/articles/china-korea-taiwan-rush-stock-203323970.html",
+    "source": "Yahoo Finance（BeInCrypto）",
+    "image": {
+      "src": "https://s.yimg.com/lo/mysterio/api/fe4596d09a486d9fc4a786dfdfe00f4f589f3549cb87206fb7dacacd7d69a55d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbeincrypto_us_662%2F99ddd936b325b6d30cfbb1c691b747c5.jpg"
+    }
+  },
+  "stories": [
+    {
+      "kicker": "数学",
+      "headline": "リーマン予想の証明を、Lean/Mathlibコミュニティが「正しい」と確認",
+      "body": "Alpöge氏が11月20日に公開した証明（Leanで約1,700万行）を、数十人が独立に実行し同じ結果を得たという。AIの関与の扱いは報道によって異なり、未確定である。",
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+      "source": "The Decoder",
+      "image": {
+        "src": "https://the-decoder.com/wp-content/uploads/2026/05/ai_and_math.png"
+      }
+    },
+    {
+      "kicker": "政策",
+      "headline": "米上院が許認可改革法案を可決、データセンターの電力負担も",
+      "body": "法案は11月19日に超党派で可決され、下院に送られた。AP-NORC調査では、夏の時点で約6割が新規データセンターの制限を支持した。",
+      "url": "https://www.yahoo.com/news/politics/articles/trump-threatens-tax-us-companies-003837936.html",
+      "source": "AP（Yahoo News）",
+      "image": {
+        "src": "https://s.yimg.com/lo/mysterio/api/c4e92bdc794c345919d2bc36a167ab2a287cf6a18cb29d683923fa9b39e88d3a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwish_tv_176%2F0216e3e6c7866461f12e33b64cf856a8.jpg"
+      }
+    },
+    {
+      "kicker": "開発",
+      "headline": "Perplexity、定期監視の「Monitor API」を公開",
+      "body": "15分から週次の間隔で検索やページを監視し、変化を通知する。Web監視は成功1,000回で1ドル、ページ監視は取得1,000URLで1ドル。",
+      "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+      "source": "The Decoder",
+      "image": {
+        "src": "https://the-decoder.com/wp-content/uploads/2026/06/Perplexity-Logo-Silhouette-Nano-Banana-Pro.jpg"
+      }
+    },
+    {
+      "kicker": "プライバシー",
+      "headline": "Signal、モバイルでスクリーンショットを既定で制限",
+      "body": "AndroidとiOSで既定で制限され、設定で解除できる。OS組み込みのAIによる画面取得への対策が、アプリ側で始まった。",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "source": "TechCrunch",
+      "image": {
+        "src": "https://techcrunch.com/wp-content/uploads/2026/05/signal-app-icon-phone.jpg?resize=1200,800"
+      }
+    },
+    {
+      "kicker": "AIモデル",
+      "headline": "Sarvam AI、105Bのopen-weightモデル「Sarvam-105B-1711」を公開",
+      "body": "105BのMoE構成でアクティブは10.3B、Apache-2.0、160Kコンテキスト。ベンチマークはベンダー自己計測。記事はAI生成と表記されている。",
+      "url": "https://www.unite.ai/sarvam-ai-releases-open-weight-105b-checkpoint-for-enterprise-agents/",
+      "source": "Unite.AI",
+      "image": {
+        "src": "https://www.unite.ai/wp-content/uploads/2026/11/sarvam-ai-releases-open-weight-105b-checkpoint-for-enterprise-agents.jpg"
+      }
+    },
+    {
+      "kicker": "農業",
+      "headline": "印旛沼の堤防決壊から2か月、田の復旧進まず",
+      "body": "9月の台風の大雨で堤防が決壊し、冠水した田の復旧が遅れている。来季の作付け準備に入れない状況という。冒頭のみ確認した内容。",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79985",
+      "source": "NHK",
+      "image": {
+        "src": "https://imgu.web.nhk/news/u/news/nd/kiji/20261122de79985/20261122de79985_E0000201208_1_l.jpg"
+      }
+    }
+  ],
+  "briefs": [
+    "東証は祝日のため休場。",
+    "SaaS・スタートアップは週末で新着の資金調達・製品記事が少なかった。",
+    "S&P500は7日続落のまま、11月23日（月）の取引へ。"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "週明けを前に、アジアの当局が市場を守る手を相次いで打った。数学ではリーマン予想の証明が確認されたが、AIの関与は報道で扱いが分かれており、続報を待ちたい。画面を見せない設定や常時の見張り役など、AIとの付き合い方の道具が増えた一日だった。"
+  },
+  "issue_no": 11,
+  "_build": "1795385333",
+  "numbers": [
+    {
+      "value": "6,910.39",
+      "label": "S&P500（11/20 終値・▼3.70%）"
+    },
+    {
+      "value": "56,437円",
+      "label": "日経平均（11/20 終値・▼5.06%）"
+    },
+    {
+      "value": "158.55円",
+      "label": "ドル円（11/23 07:08 時点・▼0.73%）"
+    }
+  ]
+}
