@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-24",
+  "top": {
+    "kicker": "米株反発",
+    "headline": "米株が急反発、Huang氏のNvidia CEO復帰でS&P500は+4.73%",
+    "subhead": "ナスダックは+6.51%、Nvidia株は+31.48%。VIXは27.05に低下",
+    "lead": "11月23日の米株は急反発した。11日前に辞任していたJensen Huang氏をNvidiaの取締役会がCEOに再任したことが材料となった。",
+    "body": [
+      "S&P500は7,237.17（+4.73%、+326.78）で取引を終えた。ナスダックは+6.51%、ダウは+1,447.98ドルの上昇となった。Nvidia株は+31.48%だった。",
+      "VIX（恐怖指数）は35.89から27.05に低下した（JournalArta）。S&P500の終値は24/7 Wall Stが7,243.94と表記しており、媒体により差がある。",
+      "東証は11月24日に連休明けで開場する。反発が続くかどうかは、今週の指標次第とみられる。"
+    ],
+    "url": "https://financefeeds.com/stock-market-today-nasdaq-jumps-6-5-percent-as-huang-returns/",
+    "source": "FinanceFeeds",
+    "image": {
+      "src": "https://financefeeds.com/wp-content/uploads/2026/10/nyse-broad-street-facade.jpg"
+    }
+  },
+  "stories": [
+    {
+      "kicker": "電力",
+      "headline": "SpaceXがAIデータセンターに約740億ドル、電力費の負担が争点に",
+      "body": "11月12日の発表によると、アリゾナに約500億ドル、テキサスのStarbaseに240億ドル超を投じる。アリゾナは満載時に6,000MWとなる。12月9日にStarbase市とCochise郡の委員会で採決が行われる。",
+      "url": "https://fortune.com/2026/11/22/spacex-74-billion-ai-data-centers-texas-arizona-who-pays/",
+      "source": "Fortune",
+      "image": {
+        "src": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2216843063-1.jpg?resize=1200,600"
+      }
+    },
+    {
+      "kicker": "漏えい",
+      "headline": "推論APIの中継で機密漏えい、OpenRouterが3プロバイダを除外",
+      "body": "Dragosが約200万の罠プロンプトで監視し、漏えいを確認した。OpenRouterはZDR（データ非保持）の対象から125エンドポイントを外した。",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "source": "The Hacker News",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGP3P_elvK4C-QnSx5onZ67viDXCIgPCUYqtTF_RDNcLJfyQ4QMbegUmn8AJy5nEmnXfN4ACr6hHztG_DdqXlj54S21toacPQaZgRx2rgqZltN3lvREpZR2xlvgXF_iZ7zW0XT0b91mMiRDVaEB6TUvMFlWwaSa3_C7gwpxdKcNhLtIq15KqwaZrR3VI/s1600/openrouter.png"
+      }
+    },
+    {
+      "kicker": "輸出規制",
+      "headline": "米議会がAIチップ輸出規制の抜け穴封じへ、NDAAに盛り込む動き",
+      "body": "AI OVERWATCH・Chip Security・MATCHの3法案がNDAA（国防権限法）の上院案に入り、12月に審議される見込み。下院で369対22で可決されたRASAは含まれず、先行きは不確実である。",
+      "url": "https://www.energypolicy.columbia.edu/congress-asserts-itself-in-closing-ai-chip-loopholes/",
+      "source": "コロンビア大学CGEP",
+      "image": {
+        "src": "https://www.energypolicy.columbia.edu/wp-content/uploads/2026/11/Image_Congress-Asserts-Itself-in-Closing-AI-Chip-Loopholes.jpg"
+      }
+    },
+    {
+      "kicker": "半導体",
+      "headline": "AIエージェントが新CPU「Frostbite」を設計、とスタートアップが主張",
+      "body": "Architect Labsによると、同等のin-orderコアに比べ電力効率は4.59倍（調整なしの15ワークロードでは3.83倍）。結果はシミュレーションのみで、チップは未製造である。",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests",
+      "source": "Tom's Hardware",
+      "image": {
+        "src": "https://cdn.mos.cms.futurecdn.net/E6ZGdHQ5GTZE5a3yPzPScR-2560-80.jpg"
+      }
+    },
+    {
+      "kicker": "鳥インフル",
+      "headline": "愛知・豊橋の採卵鶏農場で高病原性鳥インフル疑い、約8万羽",
+      "body": "愛知県が11月23日に発表した。搬出制限区域は32農場・約278万羽（速報値）。",
+      "url": "https://www.pref.aichi.jp/press-release/chikusan20261123.html",
+      "source": "愛知県",
+      "image": {
+        "src": "img/ai_00.jpg",
+        "ai": true
+      }
+    }
+  ],
+  "briefs": [
+    "東証は11月24日に連休明けで開場する。",
+    "SaaS・スタートアップ、不動産は、期間内に該当する記事がなかった。",
+    "VIXは35.89から27.05に低下した。"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "CEOの復帰ひとつで米株が大きく動いた一日だった。一方でAIの足元では、データセンターの電力負担や推論APIの情報管理など、地道な課題が具体的になってきた。輸出規制の審議は12月に持ち越される。"
+  },
+  "issue_no": 12,
+  "_build": "1795471603",
+  "numbers": [
+    {
+      "value": "7,237.17",
+      "label": "S&P500（11/23 終値・▲4.73%）"
+    },
+    {
+      "value": "56,437円",
+      "label": "日経平均（11/20 終値・▼5.06%）"
+    },
+    {
+      "value": "158.95円",
+      "label": "ドル円（11/24 07:02 時点・▼0.47%）"
+    }
+  ]
+}
