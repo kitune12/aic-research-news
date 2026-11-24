@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-25",
+  "top": {
+    "kicker": "AI規制",
+    "headline": "AIの法的責任、政府の専門調査会が初会合　改革原則の原案も",
+    "subhead": "委員12人、来年6月をめどに取りまとめ",
+    "lead": "政府は11月24日、AIの法的責任を整理する専門調査会の初会合をデジタル庁で開いた。",
+    "body": [
+      "初会合は11月24日にデジタル庁で開かれた。委員は12人で、座長は宍戸常寿・東京大学大学院教授が務める。AIエージェントの誤購入などで誰が責任を負い、被害者をどう救うかが議論の柱となる。",
+      "調査会は2027年6月をめどに議論を取りまとめる方針である。",
+      "同じ日には「AI・デジタル改革原則」の原案も示された。AIの活用を前提に規制や制度を設計し直し、最終的な責任は人が負うとの考え方である。AIエージェントを使う事業者には、約款や責任分担の見直しに備える時期が来ている。"
+    ],
+    "url": "https://www.nippon.com/ja/articles/-/57911",
+    "source": "nippon.com（時事）",
+    "image": {
+      "src": "https://nippon.ismcdn.jp/mwimgs/e/f/1200wm/img_ef38419ae116b27cacb8a379f99acf9044499.jpg"
+    }
+  },
+  "stories": [
+    {
+      "kicker": "AI業界",
+      "headline": "Amazon、Decartの推論最適化技術を約75億ドルで取得",
+      "body": "AmazonはDecartのOptimization Stackと創業チーム、研究者を取得した。Bloombergは取得額を約75億ドルと報じている。自社チップTrainiumを顧客向けに販売する準備とされ、GPU依存を下げるソフト層の囲い込みが狙いとみられる。",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "TechCrunch",
+      "image": {
+        "src": "https://techcrunch.com/wp-content/uploads/2024/12/Decart-Founders-Dean-Leitersdorf-CEO-and-Moshe-Shalev-CPO.jpg?resize=1200,800"
+      }
+    },
+    {
+      "kicker": "日本株",
+      "headline": "日経平均が大幅反発、終値は58,644.63円",
+      "body": "11月24日の日経平均は前日比2,207.98円（3.91%）高の58,644.63円で取引を終えた。前場時点の解説では、米ハイテク株高と前週末の急落の反動が挙げられた。米AI株との連動で値幅が大きくなっている。",
+      "url": "https://www.zaikei.co.jp/article/20261124/878939.html",
+      "source": "財経新聞",
+      "image": {
+        "src": "https://www.zaikei.co.jp/images/zaikei_og_image.jpg"
+      }
+    },
+    {
+      "kicker": "米国株",
+      "headline": "11月24日の米株はまちまち、Nvidiaの利益確定が重しに",
+      "body": "速報値でダウは50,028.79（+0.87%）、S&P500は7,202.45（−0.48%）、ナスダックは23,740.52（−1.45%）だった。媒体によりS&P500の値に僅差がある。主因はNvidiaの利益確定、新関税への警戒、PCE（個人消費支出物価指数）の発表待ちとされる。",
+      "url": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-lower-following-monday-s-nvidia-fueled-rally-ce7851dbdd81f720",
+      "source": "MarketScreener",
+      "image": {
+        "src": "img/ai_00.jpg",
+        "ai": true
+      }
+    },
+    {
+      "kicker": "生成AI",
+      "headline": "OpenAI、ChatGPTにGPT-6.2 Solを展開、訴求点は安全性指標",
+      "body": "Plus、Pro、Business、Enterprise向けに展開され、FreeとGoは対象外である。難しい会話での安全方針の遵守率は、従来の77〜80%から91〜94%に上がったという。",
+      "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
+      "source": "MacRumors",
+      "image": {
+        "src": "https://images.macrumors.com/t/8rbK_2ZqvjNlfGbDF36a37SAKSk=/1600x/article-new/2026/11/gpt-6-2-openai.jpg"
+      }
+    },
+    {
+      "kicker": "セキュリティ",
+      "headline": "OpenAIとCisco、Linux向けOSS「Shirudo」を公開",
+      "body": "eBPFベースのランタイムで、AIが生成した防御により、管理下の試験でElasticsearchへの攻撃を再起動なしで阻止した。ライセンスはBSD 2-Clauseで、12月15日にウェビナーが予定されている。パッチ適用前の仮防御を自動化する試みである。",
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "source": "OpenAI",
+      "image": {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&h=900&fit=fill"
+      }
+    },
+    {
+      "kicker": "政策",
+      "headline": "「AI・デジタル改革原則」の原案、最終責任は人が負う",
+      "body": "AI活用を前提に規制や制度を設計し直す内容で、最終責任は人が負うとされた。決定の時期や個別の条項は確認できていない。",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261124de80568",
+      "source": "NHK",
+      "image": {
+        "src": "https://imgu.web.nhk/news/u/news/nd/kiji/20261124de80568/20261124de80568_E0000204370_1_l.jpg"
+      }
+    },
+    {
+      "kicker": "中国AI",
+      "headline": "Zhipu、GLM-5.4を提供開始、100万トークン文脈と視覚に対応",
+      "body": "一部プランでは利用枠が50%増える。構成やベンチマークは公表されておらず、性能の裏付けは公表待ちである。",
+      "url": "https://technode.com/2026/11/23/zhipu-rolls-out-glm-5-4-with-vision-and-million-token-context/",
+      "source": "TechNode",
+      "image": {
+        "src": "https://i0.wp.com/technode.com/wp-content/uploads/2026/11/media-370704.png?fit=2560%2C1113&ssl=1"
+      }
+    },
+    {
+      "kicker": "資金調達",
+      "headline": "私募ファンド向け法務SaaSのILSが1,100万ドル調達",
+      "body": "シリーズAで、AquilineとBlackFinが共同で主導した。累計の調達額は1,500万ドルとなる。縦型SaaSに業界系の投資家が入った事例である。",
+      "url": "https://techfundingnews.com/ils-raises-11m-series-a-co-led-by-aquiline-and-blackfin-to-expand-legaltech-platform-for-private-funds/",
+      "source": "Tech Funding News",
+      "image": {
+        "src": "https://techfundingnews.com/wp-content/uploads/2026/11/ILS-founders-.jpg"
+      }
+    }
+  ],
+  "briefs": [
+    "PCE（個人消費支出物価指数）の発表が11月25日にあり、市場の次の焦点となっている。",
+    "政府の専門調査会がAIの法的責任を議論し、取りまとめは2027年6月をめどとする。",
+    "Shirudoのウェビナーは12月15日に予定されている。"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "AIの責任の所在を巡る議論が、政府の場で本格的に始まった。一方で市場では、AI関連株の値動きが日米で明暗を分けた。新しい技術の競争軸が、チップからソフト層や安全性へ広がっていることもうかがえる一日だった。"
+  },
+  "issue_no": 13,
+  "_build": "1795558070",
+  "numbers": [
+    {
+      "value": "7,201.09",
+      "label": "S&P500（11/24 終値・▼0.50%）"
+    },
+    {
+      "value": "58,645円",
+      "label": "日経平均（11/24 終値・▲3.91%）"
+    },
+    {
+      "value": "159.22円",
+      "label": "ドル円（11/25 07:07 時点・▲0.18%）"
+    }
+  ]
+}
