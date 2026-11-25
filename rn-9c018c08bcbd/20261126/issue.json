@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-26",
+  "top": {
+    "kicker": "セキュリティ",
+    "headline": "AIが見つけたDrupalの欠陥、修正の翌日に攻撃が始まる",
+    "subhead": "CISAが11月24日に悪用確認済みリストへ追加、連邦機関の期限は11月27日",
+    "lead": "AnthropicのOSS Scannerが発見したDrupalの欠陥「Fail2Install」（CVE-2026-132165）が、実際の攻撃で悪用されている。",
+    "body": [
+      "この欠陥は11月18日に修正版（11.4.13、11.3.22、10.6.22）が公開された。悪用は修正の翌日にあたる11月19日に始まっている。サポートが終了したブランチには修正が提供されていない。",
+      "米サイバーセキュリティ・インフラ安全保障庁（CISA）は11月24日、この欠陥を悪用が確認された脆弱性のリスト（KEV）に加えた。連邦機関に求められる対応期限は11月27日である。",
+      "AIによる脆弱性の発見と、それが攻撃に使われるまでの間隔は縮まっている。公開された修正を速やかに適用することが、防御の中心になりつつある。Drupalを使うサイトの運営者は、版の確認から始めたい。"
+    ],
+    "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "image": {
+      "src": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg"
+    }
+  },
+  "stories": [
+    {
+      "kicker": "米国株",
+      "headline": "11月25日の米株はまちまち、PCEが上振れ",
+      "body": "米10月のPCEはコアが前年比+3.3%（予想3.2%）、総合が+3.8%で、総合は2023年以来の高水準だった。S&P500は7,182.78（−0.25%）、ナスダックは23,585.80（−0.62%）、ダウは場中の1,100ドル超安から+0.33%で引けた。ダウの終値は媒体により50,188.01と50,182.95の差がある。7-9月期GDPは年率4.3%に上方修正され、ブレント原油は+3.5%だった。11月26日は感謝祭で休場となる。",
+      "url": "https://www.fxbrokertrust.com/insights/us-stocks-close-mixed-as-dow-reverses-1105point-plunge",
+      "source": "FXBrokerTrust",
+      "image": {
+        "src": "https://www.fxbrokertrust.com/static/pic/forex-trading-for-beginners-ultima-markets-guide-05.png"
+      }
+    },
+    {
+      "kicker": "日本株",
+      "headline": "日経平均が大幅反落、終値は57,011.62円",
+      "body": "11月25日の日経平均は前日比1,633.01円（2.78%）安の57,011.62円だった。AI・半導体株安と米追加関税への警戒が重荷となった。TOPIXは−0.50%と小幅で、値がさハイテク株の比重が大きい日経平均の方が大きく動いた。40年国債入札の最高利回りは4.09%だった。",
+      "url": "https://www.media-ir.com/news/?p=189407",
+      "source": "日本インタビュ新聞",
+      "image": {
+        "src": "https://www.media-ir.com/news/wp-content/uploads/2023/04/t13.jpg"
+      }
+    },
+    {
+      "kicker": "セキュリティ",
+      "headline": "Palo Alto、PAN-OSの欠陥Fragnesiaを修正　ファイアウォール25台が侵害",
+      "body": "CVE-2026-46300として管理されるFragnesiaは、AI支援の攻撃でファイアウォール24台と管理サーバー1台の計25台が侵害された。Palo Alto NetworksはPAN-OSで修正を出した。管理画面をインターネットに公開しない運用が基本の対策となる。",
+      "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+      "source": "SecurityWeek",
+      "image": {
+        "src": "https://www.securityweek.com/wp-content/uploads/2024/04/Palo-Alto-Networks.jpeg"
+      }
+    },
+    {
+      "kicker": "AI業界",
+      "headline": "Anthropic、Enterprise Frontier Safeguardsをパブリックベータに",
+      "body": "ゼロデータ保持契約の顧客向けに、複数のリクエストにまたがる悪用を顧客側のクラウドで検知する仕組みである。データを預けない形で監視できるため、企業が導入する際の障壁が下がるとみられる。",
+      "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+      "source": "SecurityWeek",
+      "image": {
+        "src": "https://www.securityweek.com/wp-content/uploads/2026/05/Anthropic-Claude.jpeg"
+      }
+    },
+    {
+      "kicker": "AI業界",
+      "headline": "Walmart、MetaのAIエージェントMuseで買い物に対応",
+      "body": "検索、比較、カート作成をMuseに任せられ、利用上限や購入前の承認も設定できる。第三者のエージェントを遮断するAmazonと、開放するWalmartとで路線が分かれた。",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "source": "TechCrunch",
+      "image": {
+        "src": "https://techcrunch.com/wp-content/uploads/2026/11/muse-walmart.png?w=1200"
+      }
+    },
+    {
+      "kicker": "規制",
+      "headline": "規制改革推進会議、AI活用を妨げる規制の点検方針案",
+      "body": "ロボタクシー、ドローン、医療データを優先課題とし、2027年5月ごろに首相へ答申する予定である。11月24日の改革原則案から、個別規制の見直しへ進む形となる。",
+      "url": "https://www.beloud.com/news/149247393",
+      "source": "日本経済新聞（Beloud経由）",
+      "image": {
+        "src": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3933713025112026000000-10.jpg"
+      }
+    },
+    {
+      "kicker": "資金調達",
+      "headline": "STRACT、EC横断のAIエージェント「DONDO」と約12億円を調達",
+      "body": "累計の調達額は26.2億円となった。同一商品のモール間での支払額の差は、中央値で約8%という。国内でも買い手側のエージェントに資金が入った。発表は11月18日である。",
+      "url": "https://thebridge.jp/2026/11/stract-dondo-1-2-billion-yen",
+      "source": "BRIDGE",
+      "image": {
+        "src": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/11/screenshot_581359.png?resize=1200%2C675&ssl=1"
+      }
+    },
+    {
+      "kicker": "税制",
+      "headline": "空き家の売却特例、2027年度税制改正で延長へ",
+      "body": "相続した空き家を売却した際の3,000万円控除について、延長する方向で調整が進む。対象を1981年以前の建築から2000年以前の建築に広げる案も出ている。現行の期限は2027年12月末で、税制改正大綱にどう反映されるかが次の焦点となる。",
+      "url": "https://www.daily.co.jp/society/politics/2026/11/25/0021072990.shtml",
+      "source": "共同通信（デイリー掲載）",
+      "image": {
+        "src": "https://i.daily.jp/logo/fb_logo.1.0.3.png"
+      }
+    },
+    {
+      "kicker": "米国政府",
+      "headline": "米国防総省、AI部門CDAOを「Super Intelligence Office」に改称",
+      "body": "AI.milはSI.milへ移行する。規制の変更ではなく、組織と呼称の変更である。",
+      "url": "https://defensescoop.com/2026/11/24/trump-ai-rebrand-pentagon-super-intelligence-office-sio",
+      "source": "DefenseScoop",
+      "image": {
+        "src": "https://defensescoop.com/wp-content/uploads/sites/8/2026/11/9886851.jpg"
+      }
+    },
+    {
+      "kicker": "農業",
+      "headline": "農水省「農業参入フェア2026」を大阪と東京で開催",
+      "body": "開催日は大阪が12月8日、東京が12月17日である。農地を借りて参入した法人は5,000を超えており、担い手の減少を企業参入で補う流れが続く。農水省の一次情報は未確認である。",
+      "url": "https://wellness-news.co.jp/posts/261125-1/",
+      "source": "ウェルネスデイリーニュース",
+      "image": {
+        "src": "img/ai_00.jpg",
+        "ai": true
+      }
+    }
+  ],
+  "briefs": [
+    "米国市場は11月26日の感謝祭で休場となる。",
+    "Drupalの修正版は11.4.13、11.3.22、10.6.22で、サポート終了のブランチには修正がない。",
+    "農業参入フェアは大阪が12月8日、東京が12月17日に開かれる。"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "AIが脆弱性を見つける速さは、攻撃側にも防御側にも等しく効いてくる。修正の翌日に悪用が始まったという事実は、更新を後回しにできる時間がほとんど残っていないことを示している。一方で、企業向けの悪用検知や買い物エージェントなど、AIを安心して使うための仕組みづくりも着実に進んでいる。"
+  },
+  "issue_no": 14,
+  "_build": "1795644494",
+  "numbers": [
+    {
+      "value": "7,182.78",
+      "label": "S&P500（11/25 終値・▼0.25%）"
+    },
+    {
+      "value": "57,012円",
+      "label": "日経平均（11/25 終値・▼2.78%）"
+    },
+    {
+      "value": "159.13円",
+      "label": "ドル円（11/26 07:08 時点・▲0.08%）"
+    }
+  ]
+}
