@@ -82,5 +82,11 @@
   "date": "2026-11-26",
   "issue_no": 14,
   "headline": "AIが見つけたDrupalの欠陥、修正の翌日に攻撃が始まる"
+ },
+ {
+  "dir": "20261127",
+  "date": "2026-11-27",
+  "issue_no": 15,
+  "headline": "NGINXのHTTP/2欠陥が悪用、PoCも公開済み"
  }
 ]

@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-27",
+  "top": {
+    "kicker": "脆弱性",
+    "headline": "NGINXのHTTP/2欠陥が悪用、PoCも公開済み",
+    "subhead": "影響は1.30.7・1.31.9より前、シンガポールCSAが注意喚起",
+    "lead": "NGINXのHTTP/2処理にあるヒープバッファオーバーフロー(CVE-2026-123007)について、悪用の報告とPoCの公開が確認された。",
+    "body": [
+      "この欠陥のCVSSは8.1で、悪用の報告とPoC(実証コード)の公開が確認されている。シンガポールのサイバーセキュリティ庁(CSA)が11月26日に注意喚起を出した。",
+      "同じ注意喚起には、別の欠陥CVE-2026-123633(解放後メモリ使用、CVSS 8.1)も挙がっている。影響を受けるのは、いずれもNGINX 1.30.7および1.31.9より前の版である。",
+      "PoCが出回った段階では、攻撃の試行が増えやすい。NGINXを運用している場合は、まず使っている版の確認を急ぎたい。"
+    ],
+    "url": "https://csa.gov.sg/alerts-and-advisories/alerts/al-2026-168",
+    "source": "シンガポール サイバーセキュリティ庁(CSA)",
+    "image": {
+      "src": "https://isomer-user-content.by.gov.sg/36/207c475c-41f2-4212-889d-bee59d8765c8/CSA%20International%20logo_full%20colour_transparent_bg_RGB.png"
+    }
+  },
+  "stories": [
+    {
+      "kicker": "AI開発",
+      "headline": "Anthropic、Messages APIをPythonからRustへ移行",
+      "body": "1リクエストあたりのCPU使用は約70%減、TTFT(最初のトークンまでの時間)の中央値は約20%短縮、メモリは80%超の削減となった。中核のリクエスト経路の初版はClaudeが約1週間で作成し、稼働中のPython版との入力一致率を24%から99.6%まで照合で引き上げた。エージェントによる本番の大規模移行の実例である。",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "source": "Anthropic",
+      "image": {
+        "src": "https://assets.claude.com/faac348155bf01d5c59ab38cbd05294eb2fa8197.jpg"
+      }
+    },
+    {
+      "kicker": "日本株",
+      "headline": "日経平均が反発、57,499円　一時5万8000円台も伸び悩む",
+      "body": "26日の日経平均の終値は57,499.16円で、前日比487.54円高だった。一時は58,000円台を回復したが、後半は上げ幅を縮めた。米国市場は感謝祭で休場となり、手掛かりに乏しかった。",
+      "url": "https://www.zaikei.co.jp/article/20261126/879298.html",
+      "source": "財経新聞",
+      "image": {
+        "src": "https://www.zaikei.co.jp/images/zaikei_og_image.jpg"
+      }
+    },
+    {
+      "kicker": "脆弱性",
+      "headline": "Broadcom、VMwareの23件を修正　vCenterに深刻な認証バイパス",
+      "body": "VMSA-2026-0011でBroadcomが11月24日に公表した。vCenterの認証バイパス(CVE-2026-123903)はCVSS 9.8で、PoCが公開されているが、記事時点で悪用の報告はない。関連のCVE-2026-123890はゼロデイとして悪用された。仮想化基盤は早めの適用が望ましい。",
+      "url": "https://fieldeffect.com/blog/vmware-patches-23-flaws-including-another-critical-vcenter-authentication-bypass",
+      "source": "Field Effect",
+      "image": {
+        "src": "https://fieldeffect.com/hubfs/Website-Blog/Blog-Thumb-Threat-Brief_02.jpg"
+      }
+    },
+    {
+      "kicker": "情報漏洩",
+      "headline": "Todoist、利用者の約6%に影響する侵害",
+      "body": "盗まれた認証情報で11月22〜23日にソース管理へ入られ、従業員の業務アカウント経由でクラウドにも侵入された。メールアドレス、パスワードのハッシュ、作成日が流出した。パスワードはリセットされ、ソースの改変はなかった。",
+      "url": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
+      "source": "TechCrunch",
+      "image": {
+        "src": "https://techcrunch.com/wp-content/uploads/2026/11/Todoist-feat.jpg?resize=1200,632"
+      }
+    },
+    {
+      "kicker": "規制",
+      "headline": "政府、AI法改正案の概要をまとめる",
+      "body": "高性能AIの悪用や暴走への懸念から、AI提供事業者を規制対象に指定し、安全確保措置を義務付ける。罰則も適用される見込みだが、詳細は未確認である。推進を軸にした枠組みから、義務と罰則を伴う規制へ移る流れとなる。",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261126de81752",
+      "source": "NHK",
+      "image": {
+        "src": "https://imgu.web.nhk/news/u/news/nd/kiji/20261126de81752/20261126de81752_E0000212375_1_l.jpg"
+      }
+    },
+    {
+      "kicker": "通商",
+      "headline": "USTR、14経済圏に通商法301条の「過剰生産能力」関税案",
+      "body": "対象は日本、EU、韓国、中国などである。中国とベトナムは20%案が示され、多くの国の税率は未公表となっている。当局者は、日本・EU・韓国の既存合意の上限15%内に収める考えを示した。現時点では提案段階である。",
+      "url": "https://aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target",
+      "source": "Al Jazeera",
+      "image": {
+        "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b06e0c38c0bf-1795612867.jpg?resize=1920%2C1440"
+      }
+    },
+    {
+      "kicker": "AI業界",
+      "headline": "OpenAI、ChatGPTのChatとWorkを統合し使用上限を共有",
+      "body": "まず一部のPro利用者から、単一の使用量メーターを共有する形に変わる。ヘビーユーザーは上限に早く達する可能性がある。Instantは無制限のままで、12月に共有上限を広げる予定という。",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "source": "TechCrunch",
+      "image": {
+        "src": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800"
+      }
+    },
+    {
+      "kicker": "AIモデル",
+      "headline": "Ant Group、マルチモーダルのLing-3.2-airをMITライセンスで公開",
+      "body": "総パラメータは1,240億、活性パラメータは55億である。業務自動化に使える大型のオープンウェイトモデルが、また一つ増えた。",
+      "url": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/",
+      "source": "TechNode",
+      "image": {
+        "src": "https://i0.wp.com/technode.com/wp-content/uploads/2021/08/technode-news-feed-1-1.png?fit=540%2C540&ssl=1"
+      }
+    },
+    {
+      "kicker": "資金調達",
+      "headline": "営業AI「Steve AI」のTrissino、累計124万ドルを調達",
+      "body": "競合の動向を追う営業AIを手がけ、約2億円の調達を11月24日に発表した。出資者にはANOBAKAとTechstarsなどが並ぶ。6か国に有償ユーザーがおり、SOC 2 Type IIも取得している。",
+      "url": "https://thebridge.jp/2026/11/trissino-steve-ai-1-24m",
+      "source": "THE BRIDGE",
+      "image": {
+        "src": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/11/screenshot_581583_v2.png?resize=1200%2C675&ssl=1"
+      }
+    }
+  ],
+  "briefs": [
+    "ドル円は26日の東京で159円前後の小動き。米休場で薄商い。",
+    "日銀の田村審議委員が中立金利は「2%前後」との見方を示した。",
+    "Todoistの侵害を受け、利用者のパスワードはリセットされた。"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "今日は、NGINXとVMwareの脆弱性、Todoistの侵害と、運用の足元を確かめたくなる話が続いた。一方でAnthropicのRust移行は、入力一致率を24%から99.6%まで照合で詰めたという点が印象に残る。大きな移行ほど、書く速さより確かめる仕組みが効くようだ。"
+  },
+  "issue_no": 15,
+  "_build": "1795730841",
+  "numbers": [
+    {
+      "value": "7,182.78",
+      "label": "S&P500（11/25 終値・▼0.25%）"
+    },
+    {
+      "value": "57,499円",
+      "label": "日経平均（11/26 終値・▲0.86%）"
+    },
+    {
+      "value": "159.22円",
+      "label": "ドル円（11/27 07:05 時点・▼0.03%）"
+    }
+  ]
+}
