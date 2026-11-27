@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-28",
+  "top": {
+    "kicker": "半導体",
+    "headline": "Nvidia、東南アジア4か国向けサーバー出荷を停止",
+    "subhead": "米輸出規制の強化を受け、Dell・Supermicroなどに指示",
+    "lead": "11月26日の報道によると、NvidiaがDellやSupermicroなどのパートナーに対し、マレーシア・シンガポール・タイ・インドネシア向けのサーバー出荷停止を指示した。",
+    "body": [
+      "報道はFinancial Timesによるもの。背景には米国の輸出規制の強化があり、中国企業が海外のクラウドを経由して計算資源を借りることを防ぐ狙いがあるという。",
+      "クラウド事業者は90日以内にライセンスを申請する必要がある。あわせて、規制対象の企業が利用者にいないことを証明することも求められる。",
+      "計算資源へのアクセスを巡る管理は、チップそのものの輸出だけでなく、クラウド経由の利用にも及ぶ形となった。"
+    ],
+    "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+    "source": "The Decoder",
+    "image": {
+      "src": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png"
+    }
+  },
+  "stories": [
+    {
+      "kicker": "市場",
+      "headline": "日経平均が大幅続伸、5万8,711円",
+      "body": "11月27日の日経平均株価は大幅に続伸し、58,711円11銭で取引を終えた。前日比では1,211円95銭の上昇となった。",
+      "url": "https://online.nikkei-cnbc.co.jp/vod/69324",
+      "source": "日経CNBC",
+      "image": {
+        "src": "https://dc3hn7hly4eqd.cloudfront.net/image/thumb/202611271515.jpg"
+      }
+    },
+    {
+      "kicker": "米株",
+      "headline": "米株、感謝祭明けの短縮取引で上昇",
+      "body": "11月27日の米株式市場は感謝祭明けの短縮取引で上昇した。S&P500は7,297.49(+114.71、+1.6%)、ダウは50,774.94(+591.99)、ナスダックは24,129.50(+543.70)で引けた。",
+      "url": "https://www.wral.com/news/ap/04dab-how-major-us-stock-indexes-fared-friday-11-27-2026/",
+      "source": "AP",
+      "image": {
+        "src": "https://assets.wral.com/a1cc0e86-adab-48e9-bd80-703cd2c56aff"
+      }
+    },
+    {
+      "kicker": "開発",
+      "headline": "MCPに「Skills over MCP」がベータ追加",
+      "body": "エージェントがMCPサーバーから最新のスキルを必要なときだけ読み込めるようになり、コンテキストを節約できる。記事によれば、Claude/Claude CodeのPro・Max・Ultraでは既定で有効になっている。",
+      "url": "https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html",
+      "source": "Publickey",
+      "image": {
+        "src": "https://www.publickey1.jp/2026/skills-over-mcp-beta.png"
+      }
+    },
+    {
+      "kicker": "開発",
+      "headline": "Google Workspace MCPサーバーとCLIが一般提供",
+      "body": "Gmail、Drive、Docs、Sheetsなどをエージェントから操作できる。記事は、REST API経由のエージェントには2027年2月までのMCP移行が求められると説明している。",
+      "url": "https://www.publickey1.jp/blog/26/google_workspace_mcpgoogle_workspace_cli.html",
+      "source": "Publickey",
+      "image": {
+        "src": "https://www.publickey1.jp/2026/HX6RoD8WUAAqFeu.jpg"
+      }
+    },
+    {
+      "kicker": "政策",
+      "headline": "規制改革会議、AIと自動運転の規制緩和を議論",
+      "body": "政府は11月27日に規制改革推進会議を開き、AIと自動運転の規制緩和を議論した。「フィジカルAI」の導入を課題とし、医療データの利活用や私立大学の再編も取り上げた。答申は来年5月ごろの見通し。",
+      "url": "https://www.oanda.jp/lab-education/market_news/kn_2026112701000235/",
+      "source": "共同通信",
+      "image": {
+        "src": "img/ai_00.jpg",
+        "ai": true
+      }
+    },
+    {
+      "kicker": "AI",
+      "headline": "カナダ、AI計算資源基金を10億カナダドルに拡大",
+      "body": "カナダはAI Compute Access Fundを3億カナダドルから10億カナダドルへ拡大し、7億カナダドルを追加する。新段階では、国内で保有・運用する計算資源への支援を手厚くする。",
+      "url": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion",
+      "source": "The Next Web",
+      "image": {
+        "src": "https://media.thenextweb.com/2026/10/ai-orange-neon-sign-dark-circuit-wall.jpg"
+      }
+    },
+    {
+      "kicker": "安全",
+      "headline": "MS、AI攻撃基盤「ARTEX」の国家系グループ悪用を報告",
+      "body": "MicrosoftはAI攻撃フレームワーク「ARTEX」が国家系グループに悪用されていると報告した。Storm-0940の事案では、自動パスワード推測によるログイン失敗が15万1千回超に上り、ピークは毎分2,900回だった。",
+      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+      "source": "The Decoder",
+      "image": {
+        "src": "https://the-decoder.com/wp-content/uploads/2026/10/microsoft_human_touch.png"
+      }
+    },
+    {
+      "kicker": "物価",
+      "headline": "東京都区部11月の物価、2.9%上昇",
+      "body": "東京都区部の11月の消費者物価指数(生鮮食品を除く)は、前年同月比2.9%上昇した。伸び率は拡大し、3か月連続で2%台となった。",
+      "url": "https://ryukyushimpo.jp/kyodo/entry-5617481.html",
+      "source": "共同通信",
+      "image": {
+        "src": "https://ryukyushimpo.jp/tachyon/2026/11/PN2026112701000295.-.-.CI0003.jpg"
+      }
+    },
+    {
+      "kicker": "起業",
+      "headline": "矯正歯科支援のBrace、プレシリーズAを調達",
+      "body": "矯正歯科を支援するBraceが、ジェネシア・ベンチャーズのリードでプレシリーズAの資金調達を実施した。調達額は非公表。クリニック向けのクラウド管理サービスを展開している。",
+      "url": "https://thebridge.jp/2026/11/brace-pre-series-a-genesia",
+      "source": "THE BRIDGE",
+      "image": {
+        "src": "https://i0.wp.com/thebridge.jp/wp-content/uploads/2026/11/screenshot_581584_v2.png?resize=1200%2C675&ssl=1"
+      }
+    }
+  ],
+  "briefs": [
+    "米株は主要3指数がそろって上昇",
+    "MCP移行の期限は2027年2月(記事の説明)",
+    "規制改革推進会議の答申は来年5月ごろ"
+  ],
+  "column": {
+    "title": "編集後記",
+    "body": "今週は、規制によって計算資源を囲い込む動きと、MCPでエージェントの接続を標準化する動きが同じ週に並んだ。一方は利用できる範囲を絞り、他方はつなぎ方をそろえて使いやすくしようとしている。向きは逆だが、どちらもAIの基盤をどう扱うかという同じ問いに通じている。"
+  },
+  "issue_no": 16,
+  "_build": "1795817274",
+  "numbers": [
+    {
+      "value": "7,297.49",
+      "label": "S&P500（11/27 終値・▲1.60%）"
+    },
+    {
+      "value": "58,711円",
+      "label": "日経平均（11/27 終値・▲2.11%）"
+    },
+    {
+      "value": "159.51円",
+      "label": "ドル円（11/28 07:00 時点・▲0.19%）"
+    }
+  ]
+}

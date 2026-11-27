@@ -88,5 +88,11 @@
   "date": "2026-11-27",
   "issue_no": 15,
   "headline": "NGINXのHTTP/2欠陥が悪用、PoCも公開済み"
+ },
+ {
+  "dir": "20261128",
+  "date": "2026-11-28",
+  "issue_no": 16,
+  "headline": "Nvidia、東南アジア4か国向けサーバー出荷を停止"
  }
 ]
